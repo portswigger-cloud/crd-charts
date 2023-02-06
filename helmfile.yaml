@@ -25,7 +25,7 @@ templates:
       - events:
           - prepare
         showlogs: true
-        command: ./create-crd-chart.py
+        command: ./scripts/create-crd-chart.py
         args:
           - --chart
           - '{{`{{ .Release.Chart }}`}}'
@@ -34,7 +34,7 @@ templates:
       - events:
           - cleanup
         showlogs: true
-        command: ./copy-crds.py
+        command: ./scripts/copy-crds.py
         args:
           - --chart
           - '{{`{{ .Release.Chart }}`}}'
