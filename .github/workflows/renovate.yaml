@@ -1,8 +1,10 @@
 name: Renovate
+
 on:
   schedule:
     - cron: '30 10 1-7,14-21 * 1' # 10:30 every Monday that falls on 1st-7th or 14th-21st of the month
   workflow_dispatch: {}
+
 jobs:
   renovate:
     runs-on: ubuntu-latest
@@ -15,7 +17,7 @@ jobs:
           APP_ID: ${{ secrets.RENOVATE_APP_ID }}
 
       - name: Checkout
-        uses: actions/checkout@v3.2.0
+        uses: actions/checkout@v3
 
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v34.124.5
