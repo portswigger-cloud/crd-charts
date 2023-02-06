@@ -27,7 +27,7 @@ jetstack-cert-manager-crds
 and can be installed by running:
 ```
 helm repo add crd-charts https://portswigger-cloud.github.io/crd-charts/
-helm install jetstack-cert-manager-crds crd-charts/jetstack-cert-manager-crds
+helm install cert-manager-crds crd-charts/jetstack-cert-manager-crds
 ```
 
 ### Versions
