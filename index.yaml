@@ -1,0 +1,43 @@
+apiVersion: v1
+entries:
+  bitnami-kube-prometheus-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-02-06T14:52:48.971887428Z"
+    digest: 2a595da2b1859d41722b504a5d08798dc4ce7819680615910d9b9640914a8f72
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.3.2/bitnami-kube-prometheus-crds-8.3.2.tgz
+    version: 8.3.2
+  bitnami-labs-sealed-secrets-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-02-06T14:52:49.253609141Z"
+    digest: 0049a1b4210ed483932157e6922324526c5a86ae0751883ffec39801338ed94b
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.7.3/bitnami-labs-sealed-secrets-crds-2.7.3.tgz
+    version: 2.7.3
+  eks-aws-load-balancer-controller-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-02-06T14:52:49.503259239Z"
+    digest: d5d5a70957d90298f4a685f4a4cf472b7d568070e839c89e6533634cea228dab
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.7/eks-aws-load-balancer-controller-crds-1.4.7.tgz
+    version: 1.4.7
+  karpenter-karpenter-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-02-06T14:52:49.740317691Z"
+    digest: fa2fa87a3fd241495ab6bd449a060eb2ef723e6a7acd4d7fdf087073d5aea576
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-v0.22.0/karpenter-karpenter-crds-v0.22.0.tgz
+    version: v0.22.0
+generated: "2023-02-06T14:52:49.740322391Z"
