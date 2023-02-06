@@ -1,0 +1,12 @@
+{
+    "branchPrefix": "renovate/",
+    "username": "portswigger-renovate[bot]",
+    "gitAuthor": "portswigger-renovate[bot] <121548138+portswigger-renovate[bot]@users.noreply.github.com>",
+    "platform": "github",
+    "onboarding": false,
+    "requireConfig": "optional",
+    "dependencyDashboard": false,
+    "major": {
+        "dependencyDashboardApproval": true
+    }
+}

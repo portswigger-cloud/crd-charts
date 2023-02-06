@@ -1,5 +1,0 @@
-apiVersion: v2
-appVersion: 0.0.0
-name: karpenter-karpenter-crds
-type: application
-version: v0.22.0

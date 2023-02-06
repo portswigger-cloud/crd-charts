@@ -1,0 +1,27 @@
+name: Renovate
+on:
+  schedule:
+    - cron: '30 10 1-7,14-21 * 1' # 10:30 every Monday that falls on 1st-7th or 14th-21st of the month
+  workflow_dispatch: {}
+jobs:
+  renovate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get token
+        id: get_token
+        uses: machine-learning-apps/actions-app-token@master
+        with:
+          APP_PEM: ${{ secrets.RENOVATE_APP_PEM }}
+          APP_ID: ${{ secrets.RENOVATE_APP_ID }}
+
+      - name: Checkout
+        uses: actions/checkout@v3.2.0
+
+      - name: Self-hosted Renovate
+        uses: renovatebot/github-action@v34.74.2
+        with:
+          configurationFile: .github/renovate.json
+          token: 'x-access-token:${{ steps.get_token.outputs.app_token }}'
+        env:
+          RENOVATE_ONBOARDING: false
+          RENOVATE_REPOSITORIES: ${{ github.repository }}
