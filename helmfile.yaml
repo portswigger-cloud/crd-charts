@@ -20,6 +20,8 @@ repositories:
     oci: true
   - name: traefik
     url:  https://helm.traefik.io/traefik
+  - name: istio
+    url: https://istio-release.storage.googleapis.com/charts
 
 templates:
   defaults: &defaults
@@ -67,4 +69,9 @@ releases:
   - name: traefik
     chart: traefik/traefik
     version: 20.8.0
+    <<: *defaults
+
+  - name: istio-base
+    chart: istio/base
+    version: 1.16.2
     <<: *defaults
