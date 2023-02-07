@@ -44,7 +44,6 @@ templates:
           - '{{ requiredEnv "DOWNLOAD_PATH" }}'
 
 releases:
-
   - name: karpenter
     chart: karpenter/karpenter
     version: v0.23.0
