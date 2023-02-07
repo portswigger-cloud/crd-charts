@@ -36,6 +36,8 @@ jobs:
           rm -rf ${DOWNLOAD_PATH}
           rm -rf charts
           helmfile fetch --output-dir ${DOWNLOAD_PATH} --output-dir-template ${DOWNLOAD_PATH} ; helmfile lint
+        
+      - uses: stefanzweifel/git-auto-commit-action@v4
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.5.0

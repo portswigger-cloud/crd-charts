@@ -1,6 +1,5 @@
 # Chart downlaod and creation directories
 work/
-charts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
