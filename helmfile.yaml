@@ -18,6 +18,8 @@ repositories:
   - name: karpenter
     url: public.ecr.aws/karpenter
     oci: true
+  - name: traefik
+    url:  https://helm.traefik.io/traefik
 
 templates:
   defaults: &defaults
@@ -61,4 +63,9 @@ releases:
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
     version: 1.4.7
+    <<: *defaults
+
+  - name: traefik
+    chart: traefik/traefik
+    version: 20.8.0
     <<: *defaults
