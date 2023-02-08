@@ -52,6 +52,11 @@ releases:
     chart: bitnami/kube-prometheus
     version: 8.3.2
     <<: *defaults
+   
+  - name: prometheus-operator
+    chart: bitnami/prometheus-operator
+    version: 2.7.17
+    <<: *defaults
 
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
