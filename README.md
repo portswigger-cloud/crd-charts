@@ -36,3 +36,10 @@ The CRDs charts _should_ be versioned matching the Helm chart. Often, there will
 There is the chance that a version may not be available
 (**There's no guarantee that a chart version will have been generated. Check the releases on this repository or https://portswigger-cloud.github.io/crd-charts/index.yaml**).
 
+## Known Issues
+### Duplicate CRDs in different charts
+There are charts which contain CRDs that other charts also contain. For example, `tempo-distributed` and `mimir-distributed`
+both contain the same CRDs. Some of the CRDs in those charts exist in the `kube-prometheus` (prometheus-operator) chart.
+Currently, I'm trying to think of a fix for this :-/
+
+
