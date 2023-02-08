@@ -40,6 +40,26 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.7/eks-aws-load-balancer-controller-crds-1.4.7.tgz
     version: 1.4.7
+  grafana-mimir-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-02-08T10:54:17.922900471Z"
+    digest: 19b2bdb47287af1e429760fe9d7256147e5a9cfb88a0b9533ffaee16647934e4
+    name: grafana-mimir-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-4.1.0-weekly.224/grafana-mimir-distributed-crds-4.1.0-weekly.224.tgz
+    version: 4.1.0-weekly.224
+  grafana-tempo-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-02-08T10:54:18.086051699Z"
+    digest: 898ccb6df1a03f4936addc715ed4cf0da2d1c50d06ce108a0506216a35d1012a
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.0.1/grafana-tempo-distributed-crds-1.0.1.tgz
+    version: 1.0.1
   istio-base-crds:
   - apiVersion: v2
     appVersion: 0.0.0
@@ -89,4 +109,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-02-08T09:18:41.047743772Z"
+generated: "2023-02-08T10:54:18.0860673Z"
