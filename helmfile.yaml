@@ -3,18 +3,8 @@ repositories:
     url: https://charts.bitnami.com/bitnami
   - name: bitnami-labs
     url: https://bitnami-labs.github.io/sealed-secrets
-  - name: incubator
-    url: https://charts.helm.sh/incubator
-  - name: cilium
-    url: https://helm.cilium.io/
   - name: eks
     url: https://aws.github.io/eks-charts
-  - name: external-dns
-    url: https://kubernetes-sigs.github.io/external-dns/
-  - name: jetstack
-    url: https://charts.jetstack.io
-  - name: teleport
-    url: https://charts.releases.teleport.dev
   - name: karpenter
     url: public.ecr.aws/karpenter
     oci: true
@@ -22,6 +12,8 @@ repositories:
     url:  https://helm.traefik.io/traefik
   - name: istio
     url: https://istio-release.storage.googleapis.com/charts
+  - name: smallstep
+    url: https://smallstep.github.io/helm-charts
 
 templates:
   defaults: &defaults
@@ -74,4 +66,9 @@ releases:
   - name: istio-base
     chart: istio/base
     version: 1.16.2
+    <<: *defaults
+    
+  - name: step-issuer
+    chart: smallstep/step-issuer
+    version: 0.6.7
     <<: *defaults
