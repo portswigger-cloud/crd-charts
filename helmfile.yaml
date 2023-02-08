@@ -54,7 +54,7 @@ releases:
     chart: bitnami/kube-prometheus
     version: 8.3.2
     <<: *defaults
-   
+
   - name: grafana-operator
     chart: bitnami/grafana-operator
     version: 2.7.17
@@ -82,15 +82,10 @@ releases:
 
   - name: mimir-distributed
     chart: grafana/mimir-distributed
-    version: 4.0.0
+    version: 4.1.0-weekly.224
     <<: *defaults
-  
-   - name: loki-distributed
-     chart: grafana/loki-distributed
-     version: 1.8.10
-     <<: *defaults
 
-   - name: tempo-distributed
-     chart: grafana/tempo-distributed
-     version: 1.8.10
-     <<: *defaults
+  - name: tempo-distributed
+    chart: grafana/tempo-distributed
+    version: 1.0.1
+    <<: *defaults
