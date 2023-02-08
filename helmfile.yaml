@@ -53,8 +53,8 @@ releases:
     version: 8.3.2
     <<: *defaults
    
-  - name: prometheus-operator
-    chart: bitnami/prometheus-operator
+  - name: grafana-operator
+    chart: bitnami/grafana-operator
     version: 2.7.17
     <<: *defaults
 
