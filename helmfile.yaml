@@ -14,6 +14,8 @@ repositories:
     url: https://istio-release.storage.googleapis.com/charts
   - name: smallstep
     url: https://smallstep.github.io/helm-charts
+  - name: grafana
+    url: https://grafana.github.io/helm-charts
 
 templates:
   defaults: &defaults
@@ -77,3 +79,18 @@ releases:
     chart: smallstep/step-issuer
     version: 0.6.7
     <<: *defaults
+
+  - name: mimir-distributed
+    chart: grafana/mimir-distributed
+    version: 4.0.0
+    <<: *defaults
+  
+   - name: loki-distributed
+     chart: grafana/loki-distributed
+     version: 1.8.10
+     <<: *defaults
+
+   - name: tempo-distributed
+     chart: grafana/tempo-distributed
+     version: 1.8.10
+     <<: *defaults
