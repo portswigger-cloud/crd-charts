@@ -59,6 +59,16 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-v0.22.0/karpenter-karpenter-crds-v0.22.0.tgz
     version: v0.22.0
+  smallstep-step-issuer-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-02-08T09:04:08.143832188Z"
+    digest: 5d491e2e5ef90ecfa413debaefbca9446045f49e98a49507df27028d1118a105
+    name: smallstep-step-issuer-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/smallstep-step-issuer-crds-0.6.7/smallstep-step-issuer-crds-0.6.7.tgz
+    version: 0.6.7
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
@@ -69,4 +79,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-02-07T17:03:22.738979941Z"
+generated: "2023-02-08T09:04:08.143846388Z"
