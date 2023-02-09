@@ -92,5 +92,5 @@ releases:
 
   - name: grafana-agent-operator
     chart: grafana/grafana-agent-operator
-    version: 0.2.10
+    version: 0.2.11
     <<: *defaults
