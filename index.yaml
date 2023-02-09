@@ -43,6 +43,15 @@ entries:
   grafana-grafana-agent-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-02-09T15:12:46.277059661Z"
+    digest: c33b7b341cae11be8a9f2806336bd35f048af7a696503b4d65b554d0bf8b2d32
+    name: grafana-grafana-agent-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-grafana-agent-operator-crds-0.2.11/grafana-grafana-agent-operator-crds-0.2.11.tgz
+    version: 0.2.11
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-02-09T11:18:44.620313597Z"
     digest: 0e495dc992c29c85e615bc12f4515cea3cbb9c7ee4c2dd7dad25b870c227d877
     name: grafana-grafana-agent-operator-crds
@@ -119,4 +128,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-02-09T11:18:44.620328297Z"
+generated: "2023-02-09T15:12:46.277072961Z"
