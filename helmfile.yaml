@@ -89,3 +89,8 @@ releases:
     chart: grafana/tempo-distributed
     version: 1.0.1
     <<: *defaults
+
+  - name: grafana-agent-operator
+    chart: grafana/grafana-agent-operator
+    version: 0.2.10
+    <<: *defaults
