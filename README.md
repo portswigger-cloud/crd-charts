@@ -1,3 +1,6 @@
+![crd-charts workflow](https://github.com/portswigger-cloud/secucrd-chartsrity/actions/workflows/crd-charts.yaml/badge.svg)
+
+
 # crd-charts
 Helm charts for containing the CRDs for common helm applications.
 
