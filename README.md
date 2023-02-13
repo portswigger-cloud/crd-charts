@@ -1,4 +1,4 @@
-![crd-charts workflow](https://github.com/portswigger-cloud/crd-charts/actions/workflows/crd-charts.yaml/badge.svg)
+![release workflow](https://github.com/portswigger-cloud/crd-charts/actions/workflows/release.yaml/badge.svg)
 
 
 # crd-charts
