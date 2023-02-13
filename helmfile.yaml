@@ -82,7 +82,7 @@ releases:
 
   - name: mimir-distributed
     chart: grafana/mimir-distributed
-    version: 4.1.0-weekly.224
+    version: 4.1.0
     <<: *defaults
 
   - name: tempo-distributed
