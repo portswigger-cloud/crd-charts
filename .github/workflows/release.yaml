@@ -38,7 +38,7 @@ jobs:
           for release in $(helmfile list --skip-charts --output json | jq -r '.[].name')
           do
             rm -rf ${DOWNLOAD_PATH}
-            helmfile fetch --concurrency=1 -l name=${release} --output-dir ${DOWNLOAD_PATH} --output-dir-template ${DOWNLOAD_PATH} ; helmfile lint --concurrency=1 -l name=${release}
+            helmfile fetch --skip-deps --concurrency=1 -l name=${release} --output-dir ${DOWNLOAD_PATH} --output-dir-template ${DOWNLOAD_PATH} ; helmfile lint --skip-deps --concurrency=1 -l name=${release}
           done
 
       - uses: stefanzweifel/git-auto-commit-action@v4
