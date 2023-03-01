@@ -16,6 +16,8 @@ repositories:
     url: https://smallstep.github.io/helm-charts
   - name: grafana
     url: https://grafana.github.io/helm-charts
+  - name: percona
+    url: https://percona.github.io/percona-helm-charts/
 
 templates:
   defaults: &defaults
@@ -93,4 +95,24 @@ releases:
   - name: grafana-agent-operator
     chart: grafana/grafana-agent-operator
     version: 0.2.13
+    <<: *defaults
+
+  - name: pg-db
+    chart: percona/pg-db
+    version: 1.3.1
+    <<: *defaults
+
+  - name: ps-db
+    chart: percona/ps-db
+    version: 0.4.0
+    <<: *defaults
+
+  - name: psmdb-db
+    chart: percona/psmdb-db
+    version: 1.13.0
+    <<: *defaults
+
+  - name: pxc-db
+    chart: percona/pxc-db
+    version: 1.12.0
     <<: *defaults
