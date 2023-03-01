@@ -36,7 +36,7 @@ jobs:
         run: |
           rm -rf ${DOWNLOAD_PATH}
           rm -rf charts
-          helmfile fetch --output-dir ${DOWNLOAD_PATH} --output-dir-template ${DOWNLOAD_PATH} ; helmfile lint
+          helmfile fetch --concurrency=1 --output-dir ${DOWNLOAD_PATH} --output-dir-template ${DOWNLOAD_PATH} ; helmfile lint --concurrency=1
         
       - uses: stefanzweifel/git-auto-commit-action@v4
 
