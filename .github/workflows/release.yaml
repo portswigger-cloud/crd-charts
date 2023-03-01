@@ -29,15 +29,18 @@ jobs:
           helm-version: "v3.11.0"
           kubectl-version: "1.24.7"
           kubectl-release-date: "2022-10-31"
-      
+
       - name: Create CRD charts
         env:
           DOWNLOAD_PATH: "work"
         run: |
-          rm -rf ${DOWNLOAD_PATH}
           rm -rf charts
-          helmfile fetch --concurrency=1 --output-dir ${DOWNLOAD_PATH} --output-dir-template ${DOWNLOAD_PATH} ; helmfile lint --concurrency=1
-        
+          for release in $(helmfile list --skip-charts --output json | jq -r '.[].name')
+          do
+            rm -rf ${DOWNLOAD_PATH}
+            helmfile fetch --concurrency=1 -l name=${release} --output-dir ${DOWNLOAD_PATH} --output-dir-template ${DOWNLOAD_PATH} ; helmfile lint --concurrency=1 -l name=${release}
+          done
+
       - uses: stefanzweifel/git-auto-commit-action@v4
 
       - name: Run chart-releaser
