@@ -3,6 +3,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-03-01T11:27:57.021823116Z"
+    digest: 557f8a7be5bc32f8de381ed02b99311785bc437c626e64e8e1d9d59c4ae8587e
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-2.7.22/bitnami-grafana-operator-crds-2.7.22.tgz
+    version: 2.7.22
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-02-13T10:30:49.04664154Z"
     digest: be048584bdf20a68df010ee17bbdd732b8b9d3c2cbe9107fc29108358556fe48
     name: bitnami-grafana-operator-crds
@@ -22,6 +31,15 @@ entries:
   bitnami-kube-prometheus-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-03-01T11:27:57.249165825Z"
+    digest: 267ba55cc11374a61faa0735b8e7e54ea1ab6b9f4c6af9b84314859b72497470
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.3.10/bitnami-kube-prometheus-crds-8.3.10.tgz
+    version: 8.3.10
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-02-13T10:30:49.268763204Z"
     digest: 42e6a346f59a6f59cacdb6a09e25c1a1a6bd3e97fd55729f7c4c00796053199e
     name: bitnami-kube-prometheus-crds
@@ -39,6 +57,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.3.2/bitnami-kube-prometheus-crds-8.3.2.tgz
     version: 8.3.2
   bitnami-labs-sealed-secrets-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-03-01T11:27:57.423578197Z"
+    digest: f6877244e1ed13af682ef2decc8c8f5ada59838f5e130f494dbaece20ab6e030
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.7.4/bitnami-labs-sealed-secrets-crds-2.7.4.tgz
+    version: 2.7.4
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-02-06T14:52:49.253609141Z"
@@ -68,6 +95,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.7/eks-aws-load-balancer-controller-crds-1.4.7.tgz
     version: 1.4.7
   grafana-grafana-agent-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-03-01T11:27:57.651858015Z"
+    digest: 51dd290581f5e7a52f295655d719697135d21b65e4050ac2f3a9923f99957890
+    name: grafana-grafana-agent-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-grafana-agent-operator-crds-0.2.13/grafana-grafana-agent-operator-crds-0.2.13.tgz
+    version: 0.2.13
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-02-09T15:12:46.277059661Z"
@@ -117,6 +153,15 @@ entries:
   grafana-tempo-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-03-01T11:27:57.85124864Z"
+    digest: 25c440c69e9205fe714af1f35f24f977ce1ac6f00b1db043274db47cc7238782
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.2.1/grafana-tempo-distributed-crds-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-02-08T10:54:18.086051699Z"
     digest: 898ccb6df1a03f4936addc715ed4cf0da2d1c50d06ce108a0506216a35d1012a
     name: grafana-tempo-distributed-crds
@@ -125,6 +170,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.0.1/grafana-tempo-distributed-crds-1.0.1.tgz
     version: 1.0.1
   istio-base-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-03-01T11:27:58.052408183Z"
+    digest: d63e6a7e9b95cd46f7d871347c1f355479aae0365896470b2df3471962b4f1a3
+    name: istio-base-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.17.1/istio-base-crds-1.17.1.tgz
+    version: 1.17.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-02-07T17:03:22.73897014Z"
@@ -191,4 +245,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-03-01T11:25:26.211135259Z"
+generated: "2023-03-01T11:27:58.052753887Z"
