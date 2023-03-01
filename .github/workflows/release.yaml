@@ -35,6 +35,7 @@ jobs:
           DOWNLOAD_PATH: "work"
         run: |
           rm -rf charts
+          helmfile repos
           for release in $(helmfile list --skip-charts --output json | jq -r '.[].name')
           do
             rm -rf ${DOWNLOAD_PATH}
