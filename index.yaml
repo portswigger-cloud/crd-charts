@@ -51,6 +51,15 @@ entries:
   eks-aws-load-balancer-controller-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-03-01T11:25:25.715708528Z"
+    digest: 6f27b47a66ee95694cc1c8b2ce08e19816cf4ebe2815521daff967b726f5e5b4
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.8/eks-aws-load-balancer-controller-crds-1.4.8.tgz
+    version: 1.4.8
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-02-06T14:52:49.503259239Z"
     digest: d5d5a70957d90298f4a685f4a4cf472b7d568070e839c89e6533634cea228dab
     name: eks-aws-load-balancer-controller-crds
@@ -78,6 +87,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-grafana-agent-operator-crds-0.2.10/grafana-grafana-agent-operator-crds-0.2.10.tgz
     version: 0.2.10
   grafana-mimir-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-03-01T11:25:25.95417452Z"
+    digest: 0b0f6738e6cdd73844687d582f281c2bee6547a7b58060b0a64779d95f2aeab9
+    name: grafana-mimir-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-4.2.0/grafana-mimir-distributed-crds-4.2.0.tgz
+    version: 4.2.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-02-13T10:30:49.492332829Z"
@@ -117,6 +135,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.16.2/istio-base-crds-1.16.2.tgz
     version: 1.16.2
   karpenter-karpenter-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-03-01T11:25:26.210903258Z"
+    digest: 06dbcb980a3bb186543f3ef3200af82a9ec047a4799e06074d693cb0e5dfb107
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-v0.25.0/karpenter-karpenter-crds-v0.25.0.tgz
+    version: v0.25.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-02-13T10:30:49.72134378Z"
@@ -164,4 +191,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-02-13T10:30:49.721371181Z"
+generated: "2023-03-01T11:25:26.211135259Z"
