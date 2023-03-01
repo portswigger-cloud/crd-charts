@@ -72,7 +72,7 @@ releases:
 
   - name: istio-base
     chart: istio/base
-    version: 1.16.2
+    version: 1.17.1
     <<: *defaults
     
   - name: step-issuer
