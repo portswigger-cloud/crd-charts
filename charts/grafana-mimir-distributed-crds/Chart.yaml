@@ -2,4 +2,4 @@ apiVersion: v2
 appVersion: 0.0.0
 name: grafana-mimir-distributed-crds
 type: application
-version: 4.2.0
+version: 4.3.0
