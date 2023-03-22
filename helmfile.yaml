@@ -94,7 +94,7 @@ releases:
 
   - name: grafana-agent-operator
     chart: grafana/grafana-agent-operator
-    version: 0.2.13
+    version: 0.2.14
     <<: *defaults
 
   - name: pg-db
