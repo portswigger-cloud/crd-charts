@@ -54,7 +54,7 @@ releases:
 
   - name: kube-prometheus
     chart: bitnami/kube-prometheus
-    version: 8.9.0
+    version: 8.9.1
     <<: *defaults
 
   - name: grafana-operator
