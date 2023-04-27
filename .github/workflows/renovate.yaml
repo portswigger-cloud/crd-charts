@@ -23,7 +23,6 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v36.0.3
         with:
-          configurationFile: .github/renovate.json
           token: 'x-access-token:${{ steps.get_token.outputs.app_token }}'
         env:
           RENOVATE_USERNAME: portswigger-renovate[bot]
