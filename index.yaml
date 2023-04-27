@@ -49,6 +49,15 @@ entries:
   bitnami-kube-prometheus-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-04-27T15:31:37.795485215Z"
+    digest: 07857101f183c1c29d9b0d21cbceb4ce5f3c3da5d79363bcee5e889f782ac6ec
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.9.1/bitnami-kube-prometheus-crds-8.9.1.tgz
+    version: 8.9.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-04-25T13:43:27.684167756Z"
     digest: da7e60d1ca755b64f6e28692226c7ee7e2d151bad9fe059be5ab7bfad2985046
     name: bitnami-kube-prometheus-crds
@@ -464,6 +473,15 @@ entries:
   percona-psmdb-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-04-27T15:31:38.074723055Z"
+    digest: 07957d27f3f377d04a3f9dc570d582e0f60d20df4645f96c0add0bde829722d0
+    name: percona-psmdb-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-psmdb-db-crds-1.14.1/percona-psmdb-db-crds-1.14.1.tgz
+    version: 1.14.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-03-22T11:44:31.915415645Z"
     digest: f86dc0f67dd669ff3d6bf1447ac0a93336a53f558216ff572b96d26530665035
     name: percona-psmdb-db-crds
@@ -528,4 +546,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-04-25T13:43:29.38627081Z"
+generated: "2023-04-27T15:31:38.074898654Z"
