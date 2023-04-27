@@ -23,5 +23,12 @@ jobs:
           configurationFile: .github/renovate.json
           token: 'x-access-token:${{ steps.get_token.outputs.app_token }}'
         env:
-          RENOVATE_ONBOARDING: false
+          RENOVATE_USERNAME: portswigger-renovate[bot]
+          RENOVATE_GIT_AUTHOR: "portswigger-renovate[bot] <121548138+portswigger-renovate[bot]@users.noreply.github.com>"
+          RENOVATE_ONBOARDING: "false"
+          RENOVATE_DEPENDENCY_DASHBOARD: "true"
+          RENOVATE_DEPENDENCY_DASHBOARD_AUTOCLOSE: "true"
+          RENOVATE_PR_HOURLY_LIMIT: "0"
+          RENOVATE_PR_CONCURRENT_LIMIT: "0"
+          RENOVATE_REQUIRE_CONFIG: ignored
           RENOVATE_REPOSITORIES: ${{ github.repository }}
