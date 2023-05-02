@@ -34,3 +34,9 @@ jobs:
           RENOVATE_PR_CONCURRENT_LIMIT: "0"
           RENOVATE_REQUIRE_CONFIG: ignored
           RENOVATE_REPOSITORIES: ${{ github.repository }}
+
+  post-to-a-slack-channel:
+    if: ${{ failure() }}
+    uses: portswigger-cloud/github-actions/.github/workflows/shared-slack-notifier.yaml@main
+    needs: renovate
+    secrets: inherit

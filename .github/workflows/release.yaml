@@ -49,3 +49,9 @@ jobs:
         env:
           CR_SKIP_EXISTING: "true"
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+  
+  post-to-a-slack-channel:
+    if: ${{ failure() }}
+    uses: portswigger-cloud/github-actions/.github/workflows/shared-slack-notifier.yaml@main
+    needs: release
+    secrets: inherit
