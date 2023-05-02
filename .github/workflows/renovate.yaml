@@ -35,8 +35,8 @@ jobs:
           RENOVATE_REQUIRE_CONFIG: ignored
           RENOVATE_REPOSITORIES: ${{ github.repository }}
 
-  post-to-a-slack-channel:
+  post-to-a-slack-channel-on-failure:
     if: ${{ failure() }}
-    uses: portswigger-cloud/github-actions/.github/workflows/shared-slack-notifier.yaml@main
+    uses: portswigger-cloud/github-actions/.github/workflows/shared-on-fail-slack-notifier.yaml@main
     needs: renovate
     secrets: inherit
