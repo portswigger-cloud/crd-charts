@@ -44,27 +44,27 @@ templates:
 releases:
   - name: karpenter
     chart: karpenter/karpenter
-    version: v0.27.3
+    version: v0.27.5
     <<: *defaults
   
   - name: sealed-secrets
     chart: bitnami-labs/sealed-secrets
-    version: 2.8.2
+    version: 2.9.0
     <<: *defaults
 
   - name: kube-prometheus
     chart: bitnami/kube-prometheus
-    version: 8.9.1
+    version: 8.10.2
     <<: *defaults
 
   - name: grafana-operator
     chart: bitnami/grafana-operator
-    version: 2.7.25
+    version: 2.9.2
     <<: *defaults
 
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
-    version: 1.5.2
+    version: 1.5.3
     <<: *defaults
 
   - name: traefik
@@ -84,12 +84,12 @@ releases:
 
   - name: mimir-distributed
     chart: grafana/mimir-distributed
-    version: 4.3.1
+    version: 4.4.1
     <<: *defaults
 
   - name: tempo-distributed
     chart: grafana/tempo-distributed
-    version: 1.2.11
+    version: 1.4.1
     <<: *defaults
 
   - name: grafana-agent-operator
@@ -99,20 +99,20 @@ releases:
 
   - name: pg-db
     chart: percona/pg-db
-    version: 1.3.1
+    version: 1.4.2
     <<: *defaults
 
   - name: ps-db
     chart: percona/ps-db
-    version: 0.5.0
+    version: 0.5.3
     <<: *defaults
 
   - name: psmdb-db
     chart: percona/psmdb-db
-    version: 1.14.1
+    version: 1.14.3
     <<: *defaults
 
   - name: pxc-db
     chart: percona/pxc-db
-    version: 1.12.0
+    version: 1.12.2
     <<: *defaults
