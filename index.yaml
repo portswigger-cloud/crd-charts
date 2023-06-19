@@ -67,6 +67,15 @@ entries:
   bitnami-kube-prometheus-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-06-19T08:34:25.065851895Z"
+    digest: 191c72f6e077dfc1fb8886d277e33e9fe104396c7efce331ae6ad2251d341a8a
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.13.1/bitnami-kube-prometheus-crds-8.13.1.tgz
+    version: 8.13.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-06-13T14:05:45.290734979Z"
     digest: b074cf8b0edd423be209313f1b4114723f561a08dc91887ace0610ec2ca6bd30
     name: bitnami-kube-prometheus-crds
@@ -158,6 +167,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-06-19T08:34:25.242792072Z"
+    digest: 21910d66b05373427f55dc834287b348dc1d02d795725c4f794059ec359990a5
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.10.0/bitnami-labs-sealed-secrets-crds-2.10.0.tgz
+    version: 2.10.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-05-22T09:55:23.806573244Z"
     digest: eea2c5c1276ccdf5282d6c9b4c2fbf907fefc5a5c76347c511088935dbf5e651
     name: bitnami-labs-sealed-secrets-crds
@@ -211,6 +229,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.7.3/bitnami-labs-sealed-secrets-crds-2.7.3.tgz
     version: 2.7.3
   cnpg-cloudnative-pg-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-06-19T08:34:25.438043889Z"
+    digest: 5b41eab2941bba5cf9987e479cf45064013b0a8f67969b7b34bf03aaef436ea5
+    name: cnpg-cloudnative-pg-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.18.1/cnpg-cloudnative-pg-crds-0.18.1.tgz
+    version: 0.18.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-06-13T14:12:09.75885612Z"
@@ -480,6 +507,15 @@ entries:
   karpenter-karpenter-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-06-19T08:34:25.597016134Z"
+    digest: 91a913ae8045e120dfe82a1a606405146fac6743c93d0fe2918852ca3a6134ba
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-v0.28.0/karpenter-karpenter-crds-v0.28.0.tgz
+    version: v0.28.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-06-13T14:07:23.749849676Z"
     digest: 1696036f9c69b80e62105e68ee344d67cace41ad754981d4ffaacc06c91a3cca
     name: karpenter-karpenter-crds
@@ -655,6 +691,15 @@ entries:
   percona-pxc-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-06-19T08:34:25.77656646Z"
+    digest: f35d1bbb114a4c26deaf7f1ff44ac461b3a18739fb3e26225ea1c51d2cff5fcd
+    name: percona-pxc-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pxc-db-crds-1.12.3/percona-pxc-db-crds-1.12.3.tgz
+    version: 1.12.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-05-22T09:55:25.130629604Z"
     digest: 20d0e37910bb57c3edaddf4477406c0db89be27fa7b12672b153df77a800b772
     name: percona-pxc-db-crds
@@ -727,4 +772,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-06-13T14:12:09.759059337Z"
+generated: "2023-06-19T08:34:25.777014568Z"
