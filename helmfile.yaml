@@ -21,6 +21,8 @@ repositories:
     url: https://percona.github.io/percona-helm-charts/
   - name: cnpg
     url: https://cloudnative-pg.github.io/charts
+  - name: sloth
+    url: https://slok.github.io/sloth
 
 templates:
   defaults: &defaults
@@ -123,4 +125,9 @@ releases:
   - name: cloudnative-pg
     chart: cnpg/cloudnative-pg
     version: 0.18.1
+    <<: *defaults
+
+  - name: sloth
+    chart: sloth/sloth
+    version: 0.7.0
     <<: *defaults
