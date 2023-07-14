@@ -277,6 +277,15 @@ entries:
   eks-aws-load-balancer-controller-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-07-14T12:33:15.66334525Z"
+    digest: 6dfda2756858fbf6498fe1b86b64ee1311c7e7bd5b7839eff4c07547b15d41b2
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.5.5/eks-aws-load-balancer-controller-crds-1.5.5.tgz
+    version: 1.5.5
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-06-23T13:52:15.099811197Z"
     digest: f80c6419c815c157dab265227e4114f6a24da066f96f933704bb597edd000bbc
     name: eks-aws-load-balancer-controller-crds
@@ -790,6 +799,15 @@ entries:
   percona-pxc-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-07-14T12:33:15.792650037Z"
+    digest: 9fec0bc646f8d250366eec884b18825cf383c14982ec3a1c97920e35b82f7db1
+    name: percona-pxc-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pxc-db-crds-1.13.0/percona-pxc-db-crds-1.13.0.tgz
+    version: 1.13.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-06-19T08:34:25.77656646Z"
     digest: f35d1bbb114a4c26deaf7f1ff44ac461b3a18739fb3e26225ea1c51d2cff5fcd
     name: percona-pxc-db-crds
@@ -881,4 +899,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-07-11T08:26:58.931336769Z"
+generated: "2023-07-14T12:33:15.792971341Z"
