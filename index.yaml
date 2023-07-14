@@ -387,6 +387,15 @@ entries:
   grafana-mimir-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-07-14T12:35:44.205828293Z"
+    digest: 40fe7f211d64d96bb781ffe9819dd26a16c314978cdb3473c4057fad29fa9227
+    name: grafana-mimir-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-5.0.0/grafana-mimir-distributed-crds-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-07-11T08:26:58.212438057Z"
     digest: fd687c299b07051001a522279612ee0227d846cfefcfa45d88d50791ae2e3e95
     name: grafana-mimir-distributed-crds
@@ -899,4 +908,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-07-14T12:33:15.792971341Z"
+generated: "2023-07-14T12:35:44.205993496Z"
