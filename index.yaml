@@ -3,6 +3,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-07-17T08:32:54.57000499Z"
+    digest: 1caa1be5068d799b589a7d00bcdbecd83582956baa9da267bf0507be49df87ff
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-3.0.3/bitnami-grafana-operator-crds-3.0.3.tgz
+    version: 3.0.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-07-11T08:26:57.803025613Z"
     digest: b91075d733396a7cefdd901e9c1b35ae528aa53a61e45ba7a29110c2f3a46355
     name: bitnami-grafana-operator-crds
@@ -74,6 +83,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-2.7.17/bitnami-grafana-operator-crds-2.7.17.tgz
     version: 2.7.17
   bitnami-kube-prometheus-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-07-17T08:32:54.740368032Z"
+    digest: ff2813d60135fff07b5b695c09652beff823ec4e67e630585ea92c099e9b8888
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.15.2/bitnami-kube-prometheus-crds-8.15.2.tgz
+    version: 8.15.2
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-07-11T08:26:58.016546945Z"
@@ -560,6 +578,15 @@ entries:
   istio-base-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-07-17T08:32:54.89432583Z"
+    digest: 9fc24a9ccf67f2c201ff9789efa56c96bac9842276341f8c0ab6fb59a4ced74c
+    name: istio-base-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.18.1/istio-base-crds-1.18.1.tgz
+    version: 1.18.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-06-13T14:05:45.665941913Z"
     digest: 37675f773e53cce3746a9165e5f709be857697d8f9c0411365e466dcaf47c002
     name: istio-base-crds
@@ -908,4 +935,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-07-14T12:35:44.205993496Z"
+generated: "2023-07-17T08:32:54.894569833Z"
