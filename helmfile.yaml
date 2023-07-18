@@ -109,7 +109,7 @@ releases:
 
   - name: ps-db
     chart: percona/ps-db
-    version: 0.5.3
+    version: 0.5.4
     <<: *defaults
 
   - name: psmdb-db
