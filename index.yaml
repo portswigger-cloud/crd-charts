@@ -1,6 +1,25 @@
 apiVersion: v1
 entries:
+  aqua-trivy-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-07-24T11:06:00.04272651Z"
+    digest: 944daf9776c2af2390ec33ca778a141d29c65d972986e1c57b2a488db5ce151f
+    name: aqua-trivy-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.15.0/aqua-trivy-operator-crds-0.15.0.tgz
+    version: 0.15.0
   bitnami-grafana-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-07-24T11:06:00.159087733Z"
+    digest: 0ff972dd53d93b4ae98bc39c751f87bda52360695aa5d1b6548b54ad963dfb7b
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-3.0.4/bitnami-grafana-operator-crds-3.0.4.tgz
+    version: 3.0.4
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-07-17T08:32:54.57000499Z"
@@ -83,6 +102,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-2.7.17/bitnami-grafana-operator-crds-2.7.17.tgz
     version: 2.7.17
   bitnami-kube-prometheus-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-07-24T11:06:00.289464884Z"
+    digest: fd75ae3bcc2ca1cab5168c67c1f48f2d01db03c62036eb77649acd84e8e67f0a
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.15.3/bitnami-kube-prometheus-crds-8.15.3.tgz
+    version: 8.15.3
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-07-17T08:32:54.740368032Z"
@@ -359,6 +387,15 @@ entries:
   grafana-grafana-agent-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-07-24T11:06:00.442238159Z"
+    digest: 2969ed423b3d300cd2544c3f1a4f34b85e4bd56b98028760990044c45562aec0
+    name: grafana-grafana-agent-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-grafana-agent-operator-crds-0.2.17/grafana-grafana-agent-operator-crds-0.2.17.tgz
+    version: 0.2.17
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-06-23T13:52:15.248110499Z"
     digest: 094f91e4755bcab526667c72287a86aae90ff2a005cd36228d0958244a497ed4
     name: grafana-grafana-agent-operator-crds
@@ -485,6 +522,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-4.1.0-weekly.224/grafana-mimir-distributed-crds-4.1.0-weekly.224.tgz
     version: 4.1.0-weekly.224
   grafana-tempo-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-07-24T11:06:00.573236824Z"
+    digest: 94c5af877a8a9b849b89da0904b0f3e3c4c915a5f5b7c87ddba3a48c71a16140
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.4.13/grafana-tempo-distributed-crds-1.4.13.tgz
+    version: 1.4.13
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-07-18T14:17:03.277221022Z"
@@ -640,6 +686,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.16.2/istio-base-crds-1.16.2.tgz
     version: 1.16.2
   karpenter-karpenter-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-07-24T11:06:00.688276016Z"
+    digest: 40d320af9bcd346fbe129b99bb0d3032abdd0db8570c62c3f90faa7bb6349f4a
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-v0.29.2/karpenter-karpenter-crds-v0.29.2.tgz
+    version: v0.29.2
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-07-18T14:17:03.435459523Z"
@@ -980,4 +1035,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-07-18T14:17:03.836676048Z"
+generated: "2023-07-24T11:06:00.688713127Z"
