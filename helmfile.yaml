@@ -23,6 +23,8 @@ repositories:
     url: https://cloudnative-pg.github.io/charts
   - name: sloth
     url: https://slok.github.io/sloth
+  - name: aqua
+    url: https://aquasecurity.github.io/helm-charts/
 
 templates:
   defaults: &defaults
@@ -130,4 +132,9 @@ releases:
   - name: sloth
     chart: sloth/sloth
     version: 0.7.0
+    <<: *defaults
+
+  - name: trivy-operator
+    chart: aqua/trivy-operator
+    version: 0.15.0
     <<: *defaults
