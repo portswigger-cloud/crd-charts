@@ -76,7 +76,7 @@ releases:
 
   - name: traefik
     chart: traefik/traefik
-    version: 23.2.0
+    version: 24.0.0
     <<: *defaults
 
   - name: istio-base
