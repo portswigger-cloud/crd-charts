@@ -106,7 +106,7 @@ releases:
 
   - name: pg-db
     chart: percona/pg-db
-    version: 2.2.5
+    version: 2.2.6
     <<: *defaults
 
   - name: ps-db
