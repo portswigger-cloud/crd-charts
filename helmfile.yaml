@@ -56,7 +56,7 @@ releases:
 
   - name: sealed-secrets
     chart: bitnami-labs/sealed-secrets
-    version: 2.13.1
+    version: 2.13.2
     <<: *defaults
 
   - name: kube-prometheus
