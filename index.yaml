@@ -194,6 +194,15 @@ entries:
   bitnami-kube-prometheus-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-11-06T14:49:16.959958032Z"
+    digest: 944ebed194a0df5071d85aa2f2be5826ad984e98d110e9a9be1fc5d736152f63
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.22.0/bitnami-kube-prometheus-crds-8.22.0.tgz
+    version: 8.22.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-10-26T13:37:10.798308079Z"
     digest: 7229fcc1fcbff2317b4bf18e30bc1ba5eb4740a628f4d55d7b990af8ff78a4d2
     name: bitnami-kube-prometheus-crds
@@ -375,6 +384,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-11-06T14:49:17.107005548Z"
+    digest: 92ff9438a9bb5fcc55f7cbf2d7fa099a487efca6ae9178bd347862d1f5d67317
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.13.2/bitnami-labs-sealed-secrets-crds-2.13.2.tgz
+    version: 2.13.2
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-10-26T13:37:10.975383573Z"
     digest: e6cf5bf2ddb900aed90deacace1f757e414c82dd4944ee58938373e2d35c6e9a
     name: bitnami-labs-sealed-secrets-crds
@@ -473,6 +491,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.7.3/bitnami-labs-sealed-secrets-crds-2.7.3.tgz
     version: 2.7.3
   cnpg-cloudnative-pg-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-11-06T14:49:17.282780675Z"
+    digest: 695a5716b9d430d4c0b188eeffe68821015ea370e53bf78579cfa7541b1fa988
+    name: cnpg-cloudnative-pg-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.19.1/cnpg-cloudnative-pg-crds-0.19.1.tgz
+    version: 0.19.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-10-26T13:37:11.167222416Z"
@@ -774,6 +801,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-4.1.0-weekly.224/grafana-mimir-distributed-crds-4.1.0-weekly.224.tgz
     version: 4.1.0-weekly.224
   grafana-tempo-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-11-06T14:49:17.458201211Z"
+    digest: 11e031eecfb31bb27c94f946abd40da361ada838fb23335de10ebded057faffd
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.7.0/grafana-tempo-distributed-crds-1.7.0.tgz
+    version: 1.7.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-10-26T13:37:11.720799175Z"
@@ -1485,4 +1521,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-10-26T13:37:11.905385695Z"
+generated: "2023-11-06T14:49:17.458598652Z"
