@@ -67,6 +67,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-11-13T14:52:09.042597501Z"
+    digest: 601f6a8755ed1491bbfaad90fc21e6cbfd100fc17448c84da2c037fe543ef42b
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-3.5.4/bitnami-grafana-operator-crds-3.5.4.tgz
+    version: 3.5.4
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-11-06T14:51:50.939938938Z"
     digest: 2627b4b746d199aa18b4f04ac005618ff320edee0b95250d95d3c90e8af12936
     name: bitnami-grafana-operator-crds
@@ -210,6 +219,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-2.7.17/bitnami-grafana-operator-crds-2.7.17.tgz
     version: 2.7.17
   bitnami-kube-prometheus-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-11-13T14:52:09.329205017Z"
+    digest: c9876ca07e60c40bc58da92bb1ccfa39e58afb9ffe9cea4a661010296794c063
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.22.4/bitnami-kube-prometheus-crds-8.22.4.tgz
+    version: 8.22.4
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-11-06T14:49:16.959958032Z"
@@ -637,6 +655,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.7/eks-aws-load-balancer-controller-crds-1.4.7.tgz
     version: 1.4.7
   grafana-grafana-agent-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-11-13T14:52:09.585638447Z"
+    digest: 2e9f6a41ef4f176f8b14bbf4985c82ed1c866def63bda9407c7a9733649d0dc5
+    name: grafana-grafana-agent-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-grafana-agent-operator-crds-0.3.10/grafana-grafana-agent-operator-crds-0.3.10.tgz
+    version: 0.3.10
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-11-06T14:51:51.332381541Z"
@@ -1566,4 +1593,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-11-06T14:51:51.504089386Z"
+generated: "2023-11-13T14:52:09.586134148Z"
