@@ -1326,6 +1326,16 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pg-db-crds-1.3.1/percona-pg-db-crds-1.3.1.tgz
     version: 1.3.1
+  percona-pg-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-11-20T14:25:06.593228473Z"
+    digest: 240c4b1ac6337ae3862cf32c77ccb27b0686fb01517df33b8128b6d90167dfbb
+    name: percona-pg-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pg-operator-crds-2.2.2/percona-pg-operator-crds-2.2.2.tgz
+    version: 2.2.2
   percona-ps-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
@@ -1593,4 +1603,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-11-13T14:52:09.586134148Z"
+generated: "2023-11-20T14:25:06.593473311Z"
