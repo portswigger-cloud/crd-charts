@@ -116,7 +116,7 @@ releases:
 
   - name: ps-db
     chart: percona/ps-db
-    version: 0.6.2
+    version: 0.6.3
     <<: *defaults
 
   - name: psmdb-db
