@@ -3,6 +3,15 @@ entries:
   aqua-trivy-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-11-29T10:51:34.14818167Z"
+    digest: 9155517b7f9c479206f003c71d551b57205765d45547585fa61ba3edf67d7474
+    name: aqua-trivy-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.19.1/aqua-trivy-operator-crds-0.19.1.tgz
+    version: 0.19.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-11-06T14:51:50.747960521Z"
     digest: 916133c6bf50b86933f785d0b5ce5c366b93a8b3a2cf2ce776c47180047b1b1d
     name: aqua-trivy-operator-crds
@@ -65,6 +74,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.15.0/aqua-trivy-operator-crds-0.15.0.tgz
     version: 0.15.0
   bitnami-grafana-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-11-29T10:51:34.370523741Z"
+    digest: de8623fed8adda877080a84fb5edf2c9fcaf2d7f972c7fd0246ff51129e30dad
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-3.5.9/bitnami-grafana-operator-crds-3.5.9.tgz
+    version: 3.5.9
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-11-22T10:00:58.6968677Z"
@@ -911,6 +929,15 @@ entries:
   grafana-tempo-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-11-29T10:51:34.58457308Z"
+    digest: 1f186a12f7a98ebf9d9d1123171ff03613289a08b0b79561659595d65ecdc2fd
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.7.1/grafana-tempo-distributed-crds-1.7.1.tgz
+    version: 1.7.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-11-06T14:49:17.458201211Z"
     digest: 11e031eecfb31bb27c94f946abd40da361ada838fb23335de10ebded057faffd
     name: grafana-tempo-distributed-crds
@@ -1163,6 +1190,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.16.2/istio-base-crds-1.16.2.tgz
     version: 1.16.2
   karpenter-karpenter-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-11-29T10:51:34.768496056Z"
+    digest: 0c2d924f2d5033be3b8b543a1b0d9be286f198e07cf9418669d76601c1b36b18
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-v0.32.2/karpenter-karpenter-crds-v0.32.2.tgz
+    version: v0.32.2
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-11-06T14:51:51.503671158Z"
@@ -1675,4 +1711,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-11-22T10:00:59.951474487Z"
+generated: "2023-11-29T10:51:34.966852573Z"
