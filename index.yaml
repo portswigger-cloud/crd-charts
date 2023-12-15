@@ -76,6 +76,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-12-15T10:38:55.164053708Z"
+    digest: 3e0deaa9d586ca91a0a67be1ca0ab6df9cc0c16e493bcf35f3c87064b9375ccc
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-3.5.11/bitnami-grafana-operator-crds-3.5.11.tgz
+    version: 3.5.11
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-11-29T10:51:34.370523741Z"
     digest: de8623fed8adda877080a84fb5edf2c9fcaf2d7f972c7fd0246ff51129e30dad
     name: bitnami-grafana-operator-crds
@@ -246,6 +255,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-2.7.17/bitnami-grafana-operator-crds-2.7.17.tgz
     version: 2.7.17
   bitnami-kube-prometheus-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-12-15T10:38:55.379769373Z"
+    digest: b5eee6d074428b4271158572bde611a6c86c60db5d55a40ccbd1aed085192b96
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.22.8/bitnami-kube-prometheus-crds-8.22.8.tgz
+    version: 8.22.8
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-11-22T10:00:58.909233056Z"
@@ -829,6 +847,15 @@ entries:
   grafana-mimir-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-12-15T10:38:55.56844267Z"
+    digest: 07e22d68be1b59169406ac93a4cc27ceeff675abf310caf30d9e91422bab3c8f
+    name: grafana-mimir-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-5.1.4/grafana-mimir-distributed-crds-5.1.4.tgz
+    version: 5.1.4
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-11-22T10:00:59.425573283Z"
     digest: 238b432ef76d650cc2641cfd47a517ddd88cf19431931713742c8673b392d0e7
     name: grafana-mimir-distributed-crds
@@ -1110,6 +1137,15 @@ entries:
   istio-base-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-12-15T10:38:55.793062792Z"
+    digest: c744a397fe58476ac3de3499e1fa723990f8ebcbfe348798c3302414dd9e8695
+    name: istio-base-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.20.1/istio-base-crds-1.20.1.tgz
+    version: 1.20.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-11-22T10:00:59.612619293Z"
     digest: 44c167067b9523039998ce36f0ee984a2205ac114734aceaee26cf6f13b94121
     name: istio-base-crds
@@ -1190,6 +1226,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.16.2/istio-base-crds-1.16.2.tgz
     version: 1.16.2
   karpenter-karpenter-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-12-15T10:38:56.01023234Z"
+    digest: be62481492672db2c318870c697632f6a58adbca7034b4db28798bd3d83699d4
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-v0.33.0/karpenter-karpenter-crds-v0.33.0.tgz
+    version: v0.33.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-11-29T10:51:34.768496056Z"
@@ -1355,6 +1400,15 @@ entries:
   percona-pg-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-12-15T10:38:56.232179645Z"
+    digest: 46a4d3fe5507e33a71935e9863466b0e33d073ace251f9e1f78da8c60b9e3b38
+    name: percona-pg-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pg-db-crds-2.2.8/percona-pg-db-crds-2.2.8.tgz
+    version: 2.2.8
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-11-22T10:00:59.80012063Z"
     digest: 8f340391e01d208607d5661048d2c9cf6550b3951c7cc81bc4db18d77b4bc60d
     name: percona-pg-db-crds
@@ -1438,6 +1492,15 @@ entries:
   percona-ps-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-12-15T10:38:56.472477164Z"
+    digest: 5a3f6aee2787f4d2d64a68715710b9b226e4241ec7937da4cf5d714ff0b100f8
+    name: percona-ps-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-ps-db-crds-0.6.4/percona-ps-db-crds-0.6.4.tgz
+    version: 0.6.4
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-11-22T10:00:59.950698012Z"
     digest: 613331aa08c6913048a804c86b51c04403e3bb5dabc4291c3e9d48fbdb43bf0e
     name: percona-ps-db-crds
@@ -1502,6 +1565,15 @@ entries:
   percona-psmdb-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-12-15T10:38:56.712287638Z"
+    digest: e3cd7b9db9730173ac786093e17a914b95aa51e6f145f0fb0c12fece8a6bfd7b
+    name: percona-psmdb-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-psmdb-db-crds-1.15.1/percona-psmdb-db-crds-1.15.1.tgz
+    version: 1.15.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-10-12T15:14:57.100271759Z"
     digest: e2e56ce585d232ed80227862e8d1b1613ddf66ca4c5fdc32e31234f4c18d97ec
     name: percona-psmdb-db-crds
@@ -1555,6 +1627,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-psmdb-db-crds-1.13.0/percona-psmdb-db-crds-1.13.0.tgz
     version: 1.13.0
   percona-pxc-db-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-12-15T10:38:56.947598031Z"
+    digest: a0e960b01bc0d2f90858712f4fb41c5b3e504005ede8f7f3bebb5542ffa490f8
+    name: percona-pxc-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pxc-db-crds-1.13.3/percona-pxc-db-crds-1.13.3.tgz
+    version: 1.13.3
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-10-12T15:14:57.350294368Z"
@@ -1650,6 +1731,15 @@ entries:
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-12-15T10:38:57.142801358Z"
+    digest: 0e8156d8b803fcb7693138fd7791f222c1cb102e471769fdc996b96675ee69f3
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-26.0.0/traefik-traefik-crds-26.0.0.tgz
+    version: 26.0.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-10-26T13:37:11.904858087Z"
     digest: a9dc88c71dd2cf17514a6d03dd1a8ee12f8b2bee2960afb9fdcc850fbd517ff2
     name: traefik-traefik-crds
@@ -1711,4 +1801,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-11-29T10:51:34.966852573Z"
+generated: "2023-12-15T10:38:57.143783374Z"
