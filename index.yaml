@@ -483,6 +483,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2023-12-27T10:06:35.2218954Z"
+    digest: 490d2c796cd4f9ab2edb9d27889de04839dea7ba378c61c9f5a88c7d580cd8db
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.14.1/bitnami-labs-sealed-secrets-crds-2.14.1.tgz
+    version: 2.14.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2023-12-20T09:46:01.361426171Z"
     digest: b93b1d1f214032011985f956265c22a2bc88fee2f2ffe25c2351ca3758e3dffe
     name: bitnami-labs-sealed-secrets-crds
@@ -608,6 +617,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.7.3/bitnami-labs-sealed-secrets-crds-2.7.3.tgz
     version: 2.7.3
   cnpg-cloudnative-pg-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-12-27T10:06:35.359415718Z"
+    digest: 16bf9cc7a9b2c9b1c92ef0d0dbade677f9f89065eef59ae0c298d0db2eac0250
+    name: cnpg-cloudnative-pg-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.20.0/cnpg-cloudnative-pg-crds-0.20.0.tgz
+    version: 0.20.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2023-11-06T14:49:17.282780675Z"
@@ -1837,4 +1855,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2023-12-20T09:46:01.835831152Z"
+generated: "2023-12-27T10:06:35.359749551Z"
