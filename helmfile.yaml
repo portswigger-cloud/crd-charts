@@ -106,7 +106,7 @@ releases:
 
   - name: pg-db
     chart: percona/pg-db
-    version: 2.2.8
+    version: 2.3.0
     <<: *defaults
 
   - name: pg-operator
