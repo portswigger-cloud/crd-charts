@@ -2,4 +2,4 @@ apiVersion: v2
 appVersion: 0.0.0
 name: percona-pxc-db-crds
 type: application
-version: 1.13.6
+version: 1.14.0
