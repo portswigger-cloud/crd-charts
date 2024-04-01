@@ -142,5 +142,5 @@ releases:
 
   - name: trivy-operator
     chart: aqua/trivy-operator
-    version: 0.21.1
+    version: 0.21.2
     <<: *defaults
