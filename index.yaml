@@ -3,6 +3,15 @@ entries:
   aqua-trivy-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-04-02T10:05:11.264953803Z"
+    digest: dbd871190efa9b07bc1cbc0bd4737d9ad6e85f1709a84525b40eddb239ce1e19
+    name: aqua-trivy-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.21.2/aqua-trivy-operator-crds-0.21.2.tgz
+    version: 0.21.2
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-03-27T09:16:57.672280575Z"
     digest: 932bf0f5164beda12fef42eb5e2dad13ff8e60c8e875668768698c7a6e280eb9
     name: aqua-trivy-operator-crds
@@ -128,6 +137,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.15.0/aqua-trivy-operator-crds-0.15.0.tgz
     version: 0.15.0
   bitnami-grafana-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-04-02T10:05:11.406285036Z"
+    digest: 69837ad50f1898ec42e5aae8e06bcfd13b0a9d7d6b89b099b29563471cce23be
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-4.0.0/bitnami-grafana-operator-crds-4.0.0.tgz
+    version: 4.0.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-03-27T09:16:57.757783213Z"
@@ -363,6 +381,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-2.7.17/bitnami-grafana-operator-crds-2.7.17.tgz
     version: 2.7.17
   bitnami-kube-prometheus-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-04-02T10:05:11.552637139Z"
+    digest: 4136898010c3be3203544888a40aca49fe71329f1f4546f21e8661493ecc66c2
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.30.3/bitnami-kube-prometheus-crds-8.30.3.tgz
+    version: 8.30.3
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-03-18T15:19:10.197627027Z"
@@ -2368,4 +2395,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-03-27T14:19:57.61551106Z"
+generated: "2024-04-02T10:05:11.553308071Z"
