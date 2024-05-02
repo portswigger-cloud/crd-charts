@@ -25,7 +25,9 @@ repositories:
     url: https://slok.github.io/sloth
   - name: aqua
     url: https://aquasecurity.github.io/helm-charts/
-
+  - name: arc
+    url: ghcr.io/actions/actions-runner-controller-charts
+    oci: true
 
 templates:
   defaults: &defaults
@@ -143,4 +145,9 @@ releases:
   - name: trivy-operator
     chart: aqua/trivy-operator
     version: 0.21.2
+    <<: *defaults
+
+  - name: arc
+    chart: arc/gha-runner-scale-set-controller
+    version: 0.9.1
     <<: *defaults
