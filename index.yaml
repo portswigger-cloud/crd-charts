@@ -136,6 +136,16 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.15.0/aqua-trivy-operator-crds-0.15.0.tgz
     version: 0.15.0
+  arc-gha-runner-scale-set-controller-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-05-02T14:50:52.658804597Z"
+    digest: 76de4a319ee719aacf26f08811d26f0622dc05cf527908c0e8fbfdb53348365e
+    name: arc-gha-runner-scale-set-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/arc-gha-runner-scale-set-controller-crds-0.9.1/arc-gha-runner-scale-set-controller-crds-0.9.1.tgz
+    version: 0.9.1
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
@@ -2395,4 +2405,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-04-02T10:05:11.553308071Z"
+generated: "2024-05-02T14:50:52.659142999Z"
