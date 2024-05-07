@@ -158,6 +158,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-05-07T08:34:16.731143117Z"
+    digest: 5548f0c25f4d3ee8986231382c4330af04a9a8a3d4f59f292d50e1b9cdeb2e76
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-4.2.0/bitnami-grafana-operator-crds-4.2.0.tgz
+    version: 4.2.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-05-07T08:31:17.78335424Z"
     digest: 815277d3d3220bfd57ab1e917130b7d79cf0be644f980a18772a15803e2be76e
     name: bitnami-grafana-operator-crds
@@ -1342,6 +1351,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-4.1.0-weekly.224/grafana-mimir-distributed-crds-4.1.0-weekly.224.tgz
     version: 4.1.0-weekly.224
   grafana-tempo-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-05-07T08:34:16.858170538Z"
+    digest: 3c2fe46192d79a5f1e7f3b653b4ef6617ee1d7de45388f1ee030730d1dbf384d
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.9.7/grafana-tempo-distributed-crds-1.9.7.tgz
+    version: 1.9.7
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-05-07T08:31:18.72987256Z"
@@ -2531,4 +2549,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-05-07T08:31:19.510506006Z"
+generated: "2024-05-07T08:34:16.858716101Z"
