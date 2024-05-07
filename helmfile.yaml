@@ -89,7 +89,7 @@ releases:
 
   - name: step-issuer
     chart: smallstep/step-issuer
-    version: 1.8.0
+    version: 1.9.1
     <<: *defaults
 
   - name: mimir-distributed
