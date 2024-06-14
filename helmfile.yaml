@@ -134,7 +134,7 @@ releases:
 
   - name: cloudnative-pg
     chart: cnpg/cloudnative-pg
-    version: 0.21.2
+    version: 0.21.5
     <<: *defaults
 
   - name: sloth
