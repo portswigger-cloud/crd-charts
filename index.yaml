@@ -3,6 +3,15 @@ entries:
   aqua-trivy-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-06-14T09:52:04.580491618Z"
+    digest: 831e20bb53de5c06fa082dc7f4067717cebe54e98cd65a171d6567d51678924b
+    name: aqua-trivy-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.23.3/aqua-trivy-operator-crds-0.23.3.tgz
+    version: 0.23.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-05-07T08:31:17.641333765Z"
     digest: 77c1a0e86f7d79bc9fe2e901a7cf1f577659886854a365765eaca6d00f32f06f
     name: aqua-trivy-operator-crds
@@ -148,6 +157,15 @@ entries:
   arc-gha-runner-scale-set-controller-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-06-14T09:52:04.729952273Z"
+    digest: 60c9f99c5306f511919c47e8248976f8d76c23ed8c694c0c63ee6e14f1a7f913
+    name: arc-gha-runner-scale-set-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/arc-gha-runner-scale-set-controller-crds-0.9.2/arc-gha-runner-scale-set-controller-crds-0.9.2.tgz
+    version: 0.9.2
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-05-02T14:50:52.658804597Z"
     digest: 76de4a319ee719aacf26f08811d26f0622dc05cf527908c0e8fbfdb53348365e
     name: arc-gha-runner-scale-set-controller-crds
@@ -156,6 +174,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/arc-gha-runner-scale-set-controller-crds-0.9.1/arc-gha-runner-scale-set-controller-crds-0.9.1.tgz
     version: 0.9.1
   bitnami-grafana-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-06-14T09:52:04.861512539Z"
+    digest: 3acd1341348aafe404481c8a4e5b2515c43e46ecf01febe943f5ae3c9a8d446e
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-4.4.6/bitnami-grafana-operator-crds-4.4.6.tgz
+    version: 4.4.6
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-06-07T09:13:42.79440577Z"
@@ -718,6 +745,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-06-14T09:52:04.989054355Z"
+    digest: cd2ef5e288d4cd97574ea0c8bf21265142bf1517713b5c82b1f5f4886106cdcf
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.15.4/bitnami-labs-sealed-secrets-crds-2.15.4.tgz
+    version: 2.15.4
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-05-07T08:31:18.100973649Z"
     digest: 3970845dcbd324c749cbdaba784ddbc16dc686f1e7f3d820d4f82c315847a4ae
     name: bitnami-labs-sealed-secrets-crds
@@ -890,6 +926,15 @@ entries:
   cnpg-cloudnative-pg-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-06-14T09:52:05.090992222Z"
+    digest: bee615627728bd5e618492c2ce7e265a7372ec601ee572b837077302742d6783
+    name: cnpg-cloudnative-pg-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.21.5/cnpg-cloudnative-pg-crds-0.21.5.tgz
+    version: 0.21.5
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-05-07T08:31:18.253855482Z"
     digest: f846e809016eabce1ae47dbc9678858581e823faff078bc804cec642a289b6de
     name: cnpg-cloudnative-pg-crds
@@ -970,6 +1015,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.18.0/cnpg-cloudnative-pg-crds-0.18.0.tgz
     version: 0.18.0
   eks-aws-load-balancer-controller-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-06-14T09:52:05.196736329Z"
+    digest: 75c0932a8f2b89357b5c607097155d3644be139f359a4c3810012cbb78e9385f
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.8.1/eks-aws-load-balancer-controller-crds-1.8.1.tgz
+    version: 1.8.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-03-27T09:16:57.99221328Z"
@@ -2158,6 +2212,15 @@ entries:
   percona-pg-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-06-14T09:52:05.324486725Z"
+    digest: 313a386eb04d1b65d203c25d057093529c3c3f78b76a39677f7bb444c1e5ed06
+    name: percona-pg-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pg-operator-crds-2.3.5/percona-pg-operator-crds-2.3.5.tgz
+    version: 2.3.5
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-03-18T15:19:11.759450044Z"
     digest: 21c77f0d778b5ec336273cee0aa5f87629d71b903468de48dfd1a8134de4201d
     name: percona-pg-operator-crds
@@ -2293,6 +2356,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-ps-db-crds-0.4.0/percona-ps-db-crds-0.4.0.tgz
     version: 0.4.0
   percona-psmdb-db-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-06-14T09:52:05.435600485Z"
+    digest: 45acd810a4e7664c430d857456efcfd486580aa6a604f36d1e6150b554198e7a
+    name: percona-psmdb-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-psmdb-db-crds-1.16.1/percona-psmdb-db-crds-1.16.1.tgz
+    version: 1.16.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-02-07T15:33:57.353361117Z"
@@ -2533,6 +2605,15 @@ entries:
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-06-14T09:52:05.536183787Z"
+    digest: 5919801c83abc368d65c41af3ab6ffdf044715735f378c41c7142c9741db545b
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-28.2.0/traefik-traefik-crds-28.2.0.tgz
+    version: 28.2.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-05-07T08:31:19.508188507Z"
     digest: e5a8edb5bf4951d74b3b904dd74abbad946769f866dab3fc6e03d2beb70ac1b8
     name: traefik-traefik-crds
@@ -2621,4 +2702,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-06-14T09:31:28.620311507Z"
+generated: "2024-06-14T09:52:05.536982034Z"
