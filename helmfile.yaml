@@ -151,3 +151,8 @@ releases:
     chart: arc/gha-runner-scale-set-controller
     version: 0.9.2
     <<: *defaults
+
+  - name: actions-runner-controller
+    chart: arc/actions-runner-controller
+    version: 0.23.7
+    <<: *defaults
