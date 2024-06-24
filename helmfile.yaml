@@ -29,7 +29,7 @@ repositories:
     url: ghcr.io/actions/actions-runner-controller-charts
     oci: true
   - name: actions-runner-controller-legacy
-    url: actions-runner-controller.github.io/actions-runner-controller
+    url: https://actions-runner-controller.github.io/actions-runner-controller
 
 templates:
   defaults: &defaults
