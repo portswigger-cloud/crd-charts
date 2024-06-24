@@ -176,6 +176,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-06-24T09:04:35.827724951Z"
+    digest: c7b3c65c80f0bea88c6e8188071235e5181aac592afdf14702ee5b16dfe1c9c1
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-4.4.8/bitnami-grafana-operator-crds-4.4.8.tgz
+    version: 4.4.8
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-06-14T09:52:04.861512539Z"
     digest: 3acd1341348aafe404481c8a4e5b2515c43e46ecf01febe943f5ae3c9a8d446e
     name: bitnami-grafana-operator-crds
@@ -743,6 +752,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-8.3.2/bitnami-kube-prometheus-crds-8.3.2.tgz
     version: 8.3.2
   bitnami-labs-sealed-secrets-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-06-24T09:04:35.964691035Z"
+    digest: 1c9918244e96f4d0c05f2e88b51c9197f2d71f0c7006ca6dd92b8b9686673f71
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.16.0/bitnami-labs-sealed-secrets-crds-2.16.0.tgz
+    version: 2.16.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-06-14T09:52:04.989054355Z"
@@ -2711,4 +2729,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-06-17T12:18:53.868215486Z"
+generated: "2024-06-24T09:04:35.965608919Z"
