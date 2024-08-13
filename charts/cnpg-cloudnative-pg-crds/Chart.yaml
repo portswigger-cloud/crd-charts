@@ -2,4 +2,4 @@ apiVersion: v2
 appVersion: 0.0.0
 name: cnpg-cloudnative-pg-crds
 type: application
-version: 0.21.5
+version: 0.21.6
