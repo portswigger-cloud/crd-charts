@@ -56,7 +56,7 @@ templates:
 releases:
   - name: karpenter
     chart: karpenter/karpenter
-    version: 0.37.0
+    version: 0.37.1
     <<: *defaults
 
   - name: sealed-secrets
