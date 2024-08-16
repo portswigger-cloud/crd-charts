@@ -96,7 +96,7 @@ releases:
 
   - name: mimir-distributed
     chart: grafana/mimir-distributed
-    version: 5.4.0
+    version: 5.4.1
     <<: *defaults
 
   - name: tempo-distributed
