@@ -2338,6 +2338,15 @@ entries:
   percona-pg-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-08-22T09:20:37.688608453Z"
+    digest: eaac5b6b9da77d6026a73861bea7b1ca4683779f4da6d5386256625921fef58a
+    name: percona-pg-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pg-db-crds-2.4.3/percona-pg-db-crds-2.4.3.tgz
+    version: 2.4.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-08-13T10:04:34.592223904Z"
     digest: 4a6b3b312440eb2e17b03aa93b782b73276c8abee88b99f94875371c0aefa9e9
     name: percona-pg-db-crds
@@ -2792,6 +2801,15 @@ entries:
   percona-pxc-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-08-22T09:20:37.897129421Z"
+    digest: 5e3039e75146ce328beb2a53187e3f1dd95d3d4abe7257d706e3c13e4ded9ff7
+    name: percona-pxc-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pxc-db-crds-1.15.0/percona-pxc-db-crds-1.15.0.tgz
+    version: 1.15.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-08-22T09:18:11.261238775Z"
     digest: 0641368f6f72062dbc6f3f37bd8a1e0ca1041635c0c3042285c0ef7050f32ca9
     name: percona-pxc-db-crds
@@ -3117,4 +3135,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-08-22T09:18:11.457885883Z"
+generated: "2024-08-22T09:20:37.89795638Z"
