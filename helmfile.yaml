@@ -131,7 +131,7 @@ releases:
 
   - name: pxc-db
     chart: percona/pxc-db
-    version: 1.14.4
+    version: 1.15.0
     <<: *defaults
 
   - name: cloudnative-pg
