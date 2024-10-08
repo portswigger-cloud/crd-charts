@@ -204,6 +204,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-10-08T13:09:05.431313684Z"
+    digest: 54cf6cbd1760b8b671218533d57fcf38dfdf3c2906542e1b4b8b18c4fc5909ad
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-4.7.3/bitnami-grafana-operator-crds-4.7.3.tgz
+    version: 4.7.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-08-22T09:18:10.091282477Z"
     digest: 710af5219ac80275254fa65dd2caa265c466a47211aba223aa187bb7d387646a
     name: bitnami-grafana-operator-crds
@@ -3135,4 +3144,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-08-22T09:20:37.89795638Z"
+generated: "2024-10-08T13:09:05.432038158Z"
