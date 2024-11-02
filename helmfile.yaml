@@ -76,7 +76,7 @@ releases:
 
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
-    version: 1.9.2
+    version: 1.10.0
     <<: *defaults
 
   - name: traefik
