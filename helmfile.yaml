@@ -52,6 +52,28 @@ templates:
           - '{{`{{ .Release.Chart }}`}}'
           - --download-path
           - '{{ requiredEnv "DOWNLOAD_PATH" }}'
+  nestedChart: &nestedChart
+    hooks:
+      - events:
+          - prepare
+        showlogs: true
+        command: ./scripts/create-crd-chart.py
+        args:
+          - --chart
+          - '{{`{{ .Release.Chart }}`}}'
+          - --version
+          - '{{`{{ .Release.Version }}`}}'
+      - events:
+          - cleanup
+        showlogs: true
+        command: ./scripts/copy-crds.py
+        args:
+          - --chart
+          - '{{`{{ .Release.Chart }}`}}'
+          - --download-path
+          - '{{ requiredEnv "DOWNLOAD_PATH" }}'
+          - --nested-chart
+          - "false"
 
 releases:
   - name: karpenter
@@ -158,8 +180,8 @@ releases:
     chart: actions-runner-controller-legacy/actions-runner-controller
     version: 0.23.7
     <<: *defaults
-
+  
   - name: grafana-alloy
     chart: grafana/alloy
     version: 0.9.2
-    <<: *defaults
+    <<: *nestedChart
