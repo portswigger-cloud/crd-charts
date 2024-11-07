@@ -15,7 +15,7 @@ def main(chart: str, download_path: str, nested_chart: bool):
 
     staged_chart_dir = f"{download_path}/{chart_name}"
     if nested_chart:
-        for path in glob.glob(f"{staged_chart_dir}/charts/**/crds", recursive=True):
+        for path in glob.glob(f"{staged_chart_dir}/charts/*/crds", recursive=True):
             shutil.copytree(path, chart_templates_path)
     else:
         for path in glob.glob(f"{staged_chart_dir}/**/crds", recursive=True):
