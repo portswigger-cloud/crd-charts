@@ -73,7 +73,7 @@ templates:
           - --download-path
           - '{{ requiredEnv "DOWNLOAD_PATH" }}'
           - --nested-chart
-          - "false"
+          - "true"
 
 releases:
   - name: karpenter
