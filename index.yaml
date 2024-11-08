@@ -204,6 +204,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-11-08T10:29:51.199940912Z"
+    digest: b423816bb91e82b6cfa4c26f3581ce1177750e2b58f39e95b3f27e0414ef236b
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-4.8.0/bitnami-grafana-operator-crds-4.8.0.tgz
+    version: 4.8.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-11-05T15:06:37.436957027Z"
     digest: 2a8731c309d132cd8645bc70f215e2cdb48e5eb5519cba30857157a836ac8ed3
     name: bitnami-grafana-operator-crds
@@ -1787,6 +1796,15 @@ entries:
   grafana-tempo-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-11-08T10:29:51.323435173Z"
+    digest: 5dff8dabdaec193b557bbeae608f29cf8d28e4ad06c0e7a1341781bd3a3e914e
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.21.1/grafana-tempo-distributed-crds-1.21.1.tgz
+    version: 1.21.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-11-04T13:39:36.00693976Z"
     digest: 6955d6a884d14992bef8b8e11dcc74162c7df5c6e45a5ba8194623b205b6730f
     name: grafana-tempo-distributed-crds
@@ -2110,6 +2128,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.0.1/grafana-tempo-distributed-crds-1.0.1.tgz
     version: 1.0.1
   istio-base-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-11-08T10:29:51.460256039Z"
+    digest: 2af1a13eb43d934037837b80a108cc47b854ff2a8cfaf83a313203f55772dbdd
+    name: istio-base-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.24.0/istio-base-crds-1.24.0.tgz
+    version: 1.24.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-11-04T13:39:36.096829435Z"
@@ -2927,6 +2954,15 @@ entries:
   percona-psmdb-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-11-08T10:29:51.578695114Z"
+    digest: 4f8a4251a7b553b37547fb457db28103573978f3886c265c9d9bba186db30075
+    name: percona-psmdb-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-psmdb-db-crds-1.17.1/percona-psmdb-db-crds-1.17.1.tgz
+    version: 1.17.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-10-08T13:15:26.248639709Z"
     digest: caeaf3882502259d8d3904f1de8098fdd5bca859a60b90e54462ebc353d218d4
     name: percona-psmdb-db-crds
@@ -3406,4 +3442,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-11-07T13:23:09.342172933Z"
+generated: "2024-11-08T10:29:51.579901282Z"
