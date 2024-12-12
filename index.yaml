@@ -944,6 +944,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-12-12T14:10:13.789622621Z"
+    digest: 989b16319011889dbee3d1ee3965f0bb524e3ec6e4794f9f6a6f5b7b224089c5
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.17.0/bitnami-labs-sealed-secrets-crds-2.17.0.tgz
+    version: 2.17.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-11-05T15:06:37.593257249Z"
     digest: 04683f6d808bf58f0d7da1abd461b7db98c79f54385678aaa9c7b2bbc4f1d45a
     name: bitnami-labs-sealed-secrets-crds
@@ -1422,6 +1431,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.7/eks-aws-load-balancer-controller-crds-1.4.7.tgz
     version: 1.4.7
   grafana-alloy-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-12-12T14:10:13.954321849Z"
+    digest: 724679c180da768d09f29c9d75e77f6205a8a6de61b237e70e316f4570470c88
+    name: grafana-alloy-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-alloy-crds-0.10.1/grafana-alloy-crds-0.10.1.tgz
+    version: 0.10.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-11-07T13:23:09.341637875Z"
@@ -3442,4 +3460,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-11-08T10:29:51.579901282Z"
+generated: "2024-12-12T14:10:13.955069665Z"
