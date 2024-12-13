@@ -13,6 +13,15 @@ entries:
   aqua-trivy-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-12-13T11:51:45.431952139Z"
+    digest: 8420fecf17819264adde203be8c8f04a5a9990fa1f86413559cdc8e8ed29cdfc
+    name: aqua-trivy-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.25.0/aqua-trivy-operator-crds-0.25.0.tgz
+    version: 0.25.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-07-11T12:16:17.433779837Z"
     digest: a804e7b8f61fb692f0106673461fcb23fbd3030bdc5a4aa8059b818344ca6771
     name: aqua-trivy-operator-crds
@@ -1277,6 +1286,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.18.0/cnpg-cloudnative-pg-crds-0.18.0.tgz
     version: 0.18.0
   eks-aws-load-balancer-controller-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-12-13T11:51:45.595138317Z"
+    digest: 19d423eea92349248f4371ce5d88d5a25ba6fe558eff4ad2ca365d0403bc2192
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.10.1/eks-aws-load-balancer-controller-crds-1.10.1.tgz
+    version: 1.10.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-11-04T13:39:35.80159918Z"
@@ -3282,6 +3300,15 @@ entries:
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2024-12-13T11:51:45.74689162Z"
+    digest: b14786b37c24b968f5dff2c3e721c68df39a87a774dd4ef0d3b7a4c7b960ebfb
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-33.1.0/traefik-traefik-crds-33.1.0.tgz
+    version: 33.1.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-11-04T13:39:36.484454415Z"
     digest: 23a442a5e10790061d03738eb454982411fb8aa49618f484842b3088b42047f4
     name: traefik-traefik-crds
@@ -3460,4 +3487,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2024-12-12T14:10:13.955069665Z"
+generated: "2024-12-13T11:51:45.747518639Z"
