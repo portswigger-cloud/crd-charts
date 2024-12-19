@@ -173,7 +173,7 @@ releases:
 
   - name: arc
     chart: arc/gha-runner-scale-set-controller
-    version: 0.9.3
+    version: 0.10.1
     <<: *defaults
 
   - name: actions-runner-controller-legacy
