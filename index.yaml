@@ -1759,6 +1759,15 @@ entries:
   grafana-mimir-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-02-20T14:32:09.485507543Z"
+    digest: 172900081067d82ed1c8ab506be64c3c30153e4bdd883b870d6ab504f10b1088
+    name: grafana-mimir-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-5.6.0/grafana-mimir-distributed-crds-5.6.0.tgz
+    version: 5.6.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-10-21T12:59:21.25398782Z"
     digest: 662f7546c896960d79ec79f1401b000342e1c9608a1951538bc65dddfba4b096
     name: grafana-mimir-distributed-crds
@@ -1929,6 +1938,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-4.1.0-weekly.224/grafana-mimir-distributed-crds-4.1.0-weekly.224.tgz
     version: 4.1.0-weekly.224
   grafana-tempo-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-02-20T14:32:09.587415718Z"
+    digest: 28fb42d7b599c31dae08c88a6f07858143bf0813fca86f4fd306769bd8c4f29b
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.32.1/grafana-tempo-distributed-crds-1.32.1.tgz
+    version: 1.32.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-12-27T14:22:37.748999788Z"
@@ -3152,6 +3170,15 @@ entries:
   percona-psmdb-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-02-20T14:32:09.700622924Z"
+    digest: 45f769aeb2b9f2dc695103418ba24136a46e00dab26c51a9c98a4e56d66830d3
+    name: percona-psmdb-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-psmdb-db-crds-1.19.0/percona-psmdb-db-crds-1.19.0.tgz
+    version: 1.19.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-12-16T09:15:51.686253719Z"
     digest: 7c2ce17a6c551b019370a6b151527a68ca17bd9e61b027670c55449153b23134
     name: percona-psmdb-db-crds
@@ -3434,6 +3461,15 @@ entries:
   smallstep-step-issuer-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-02-20T14:32:09.810021968Z"
+    digest: db5444f11a1712e1c2f47748e008f59e875df071abe4e06461767290019d9283
+    name: smallstep-step-issuer-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/smallstep-step-issuer-crds-1.9.7/smallstep-step-issuer-crds-1.9.7.tgz
+    version: 1.9.7
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-12-16T09:15:51.864923598Z"
     digest: 4573f45521152b3856133bb9b9970f2594e09edeac67e79e8fd60b4a0571b2da
     name: smallstep-step-issuer-crds
@@ -3694,4 +3730,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-02-14T09:48:24.57434217Z"
+generated: "2025-02-20T14:32:09.81083238Z"
