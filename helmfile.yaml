@@ -168,7 +168,7 @@ releases:
 
   - name: trivy-operator
     chart: aqua/trivy-operator
-    version: 0.26.1
+    version: 0.27.0
     <<: *defaults
 
   - name: arc
