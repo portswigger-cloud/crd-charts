@@ -2,4 +2,4 @@ apiVersion: v2
 appVersion: 0.0.0
 name: traefik-traefik-crds
 type: application
-version: 34.4.0
+version: 34.4.1
