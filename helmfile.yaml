@@ -163,7 +163,7 @@ releases:
 
   - name: sloth
     chart: sloth/sloth
-    version: 0.7.0
+    version: 0.12.1
     <<: *defaults
 
   - name: trivy-operator
