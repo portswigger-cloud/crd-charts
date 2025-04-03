@@ -212,6 +212,15 @@ entries:
   arc-gha-runner-scale-set-controller-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-04-03T14:41:51.545206488Z"
+    digest: 4c7824f0e388ad13e4c155c35daffdf79ccab41860930a07dfda9c60daf989fc
+    name: arc-gha-runner-scale-set-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/arc-gha-runner-scale-set-controller-crds-0.11.0/arc-gha-runner-scale-set-controller-crds-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2024-12-27T14:22:37.389132705Z"
     digest: 64487e47a6bd9f6d2d4c8799a1227b20d14f40a4224224b94dda70b0d9949fb3
     name: arc-gha-runner-scale-set-controller-crds
@@ -3973,4 +3982,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-04-02T13:31:53.868991409Z"
+generated: "2025-04-03T14:41:51.545793415Z"
