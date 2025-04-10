@@ -93,7 +93,7 @@ releases:
 
   - name: grafana-operator
     chart: bitnami/grafana-operator
-    version: 4.9.9
+    version: 4.9.11
     <<: *defaults
 
   - name: aws-load-balancer-controller
@@ -103,7 +103,7 @@ releases:
 
   - name: traefik
     chart: traefik/traefik
-    version: 34.5.0
+    version: 35.0.0
     <<: *defaults
 
   - name: istio-base
@@ -123,7 +123,7 @@ releases:
 
   - name: tempo-distributed
     chart: grafana/tempo-distributed
-    version: 1.32.7
+    version: 1.35.0
     <<: *defaults
 
   - name: grafana-agent-operator
