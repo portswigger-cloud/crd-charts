@@ -183,5 +183,5 @@ releases:
 
   - name: grafana-alloy
     chart: grafana/alloy
-    version: 0.12.5
+    version: 1.0.0
     <<: *nestedChart
