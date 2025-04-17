@@ -2,4 +2,4 @@ apiVersion: v2
 appVersion: 0.0.0
 name: istio-base-crds
 type: application
-version: 1.25.0
+version: 1.25.2
