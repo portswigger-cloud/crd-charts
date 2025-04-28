@@ -258,6 +258,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-04-28T08:42:35.065736072Z"
+    digest: 9f2420a9484a27067381267e2a0e39294e8290c26cf46aa879a7badeafaa5aa9
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-4.9.13/bitnami-grafana-operator-crds-4.9.13.tgz
+    version: 4.9.13
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-04-17T13:29:05.283973239Z"
     digest: 1b1636ca908108a2ba0bf739f0176b9ec851c35a8f000f26a9d3f4ae70ceb2f8
     name: bitnami-grafana-operator-crds
@@ -698,6 +707,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-2.7.17/bitnami-grafana-operator-crds-2.7.17.tgz
     version: 2.7.17
   bitnami-kube-prometheus-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-04-28T08:42:35.326665448Z"
+    digest: 8e1c787b686b83a34e4ea0232f338d7341e4bd415d6812e9453d02229a0ca630
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-11.1.6/bitnami-kube-prometheus-crds-11.1.6.tgz
+    version: 11.1.6
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-04-17T13:29:05.485555609Z"
@@ -1658,6 +1676,15 @@ entries:
   grafana-alloy-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-04-28T08:42:35.463211834Z"
+    digest: 6734e14192c865c600d43ff4fa5334d50c0d5633d3bb2780736bebc457693c44
+    name: grafana-alloy-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-alloy-crds-1.0.2/grafana-alloy-crds-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-04-17T13:29:05.674727153Z"
     digest: 750b2a9f3aba73ce90e62cbe78bd85b6e6ffd5c0041d42b9fea341e05a8ab118
     name: grafana-alloy-crds
@@ -2127,6 +2154,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-4.1.0-weekly.224/grafana-mimir-distributed-crds-4.1.0-weekly.224.tgz
     version: 4.1.0-weekly.224
   grafana-tempo-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-04-28T08:42:35.606105168Z"
+    digest: 3a6c7030fdbe28d536b7875318be3b5e8ef4d2418831938a87216d43a1b68298
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.38.2/grafana-tempo-distributed-crds-1.38.2.tgz
+    version: 1.38.2
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-04-17T13:29:06.077230981Z"
@@ -2750,6 +2786,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.16.2/istio-base-crds-1.16.2.tgz
     version: 1.16.2
   karpenter-karpenter-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-04-28T08:42:35.74741042Z"
+    digest: 30f7dcc7fb10fabf36e5312dc3430ec9a80d1b300283fce3e8f9a9ba99c11b25
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-1.4.0/karpenter-karpenter-crds-1.4.0.tgz
+    version: 1.4.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-03-20T09:13:36.756665622Z"
@@ -3858,6 +3903,15 @@ entries:
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-04-28T08:42:35.869623473Z"
+    digest: c9bca267afcf98bb481cd8529130ebbd82aa7a20bf27f5788a226ce1f7c78052
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-35.1.0/traefik-traefik-crds-35.1.0.tgz
+    version: 35.1.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-04-10T12:49:24.278145707Z"
     digest: fe14c62c580a231685718b642020c974191db8467645d1afa8a560dfa5e6463e
     name: traefik-traefik-crds
@@ -4099,4 +4153,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-04-17T13:29:06.492059374Z"
+generated: "2025-04-28T08:42:35.870758497Z"
