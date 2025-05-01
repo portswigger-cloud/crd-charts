@@ -709,6 +709,15 @@ entries:
   bitnami-kube-prometheus-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-05-01T08:53:48.366950195Z"
+    digest: 1074be0f92a7edc077618ecd6f3b44eaf89746b9bf96904f4796ce31cfaee559
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-11.1.7/bitnami-kube-prometheus-crds-11.1.7.tgz
+    version: 11.1.7
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-04-28T08:42:35.326665448Z"
     digest: 8e1c787b686b83a34e4ea0232f338d7341e4bd415d6812e9453d02229a0ca630
     name: bitnami-kube-prometheus-crds
@@ -3903,6 +3912,15 @@ entries:
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-05-01T08:53:48.553518164Z"
+    digest: 55762d08ecb64f3f5d8d8fa2c6a19d8520292826a90dcc831eff177cb4377b33
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-35.2.0/traefik-traefik-crds-35.2.0.tgz
+    version: 35.2.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-04-28T08:42:35.869623473Z"
     digest: c9bca267afcf98bb481cd8529130ebbd82aa7a20bf27f5788a226ce1f7c78052
     name: traefik-traefik-crds
@@ -4153,4 +4171,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-04-28T08:42:35.870758497Z"
+generated: "2025-05-01T08:53:48.555243098Z"
