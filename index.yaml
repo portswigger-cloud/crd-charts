@@ -1531,6 +1531,15 @@ entries:
   eks-aws-load-balancer-controller-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-05-16T09:58:45.991632976Z"
+    digest: 61664e157a3f1175b58acef17264ac2ce3561c16cf221cb2ea44df3e4dc76660
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.13.2/eks-aws-load-balancer-controller-crds-1.13.2.tgz
+    version: 1.13.2
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-05-16T08:47:29.255943026Z"
     digest: 2f4f63f83d0a7235a66d1b22a46364ed5428cb42d28817b5c2359db4ee873f3f
     name: eks-aws-load-balancer-controller-crds
@@ -4234,4 +4243,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-05-16T08:47:29.831745375Z"
+generated: "2025-05-16T09:58:45.99225917Z"
