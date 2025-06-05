@@ -148,7 +148,7 @@ releases:
 
   - name: psmdb-db
     chart: percona/psmdb-db
-    version: 1.20.0
+    version: 1.20.1
     <<: *defaults
 
   - name: pxc-db
