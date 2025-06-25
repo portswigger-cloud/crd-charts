@@ -171,7 +171,7 @@ releases:
     version: 0.29.1
     <<: *defaults
 
-  - name: arc
+  - name: gha-runner-scale-set-controller
     chart: arc/gha-runner-scale-set-controller
     version: 0.12.0
     <<: *defaults
