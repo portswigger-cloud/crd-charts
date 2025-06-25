@@ -45,4 +45,3 @@ There are charts which contain CRDs that other charts also contain. For example,
 both contain the same CRDs. Some of the CRDs in those charts exist in the `kube-prometheus` (prometheus-operator) chart.
 Currently, I'm trying to think of a fix for this :-/
 
-
