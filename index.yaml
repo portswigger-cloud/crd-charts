@@ -2345,6 +2345,15 @@ entries:
   grafana-tempo-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-06-25T13:01:54.454406719Z"
+    digest: ddd694a39c24818bda43eb4779f3c58d468a06b154d58d0c6d016d26c1084310
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.42.3/grafana-tempo-distributed-crds-1.42.3.tgz
+    version: 1.42.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-06-25T10:38:45.562911451Z"
     digest: 55cf752f85245a777be44b487667123f65b29d745362b497b441d38ab4e2c0ab
     name: grafana-tempo-distributed-crds
@@ -4200,6 +4209,15 @@ entries:
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-06-25T13:01:54.603030956Z"
+    digest: 25028eab37a50cacacd1a36b3ac7c319e266339ce013dc8ee34b2dc66f3fb386
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-36.2.0/traefik-traefik-crds-36.2.0.tgz
+    version: 36.2.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-06-13T07:23:55.416326554Z"
     digest: 55ce7235b840fa475d586c6f47d71072c4fba934826fd30d61ca621b9c981d6e
     name: traefik-traefik-crds
@@ -4486,4 +4504,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-06-25T10:38:45.564951233Z"
+generated: "2025-06-25T13:01:54.603845857Z"
