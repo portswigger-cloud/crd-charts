@@ -168,7 +168,7 @@ releases:
 
   - name: trivy-operator
     chart: aqua/trivy-operator
-    version: 0.29.1
+    version: 0.29.3
     <<: *defaults
 
   - name: gha-runner-scale-set-controller
