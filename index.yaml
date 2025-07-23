@@ -13,6 +13,15 @@ entries:
   aqua-trivy-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-07-23T12:37:17.791099761Z"
+    digest: 17c0cee5716c88f2a2355cb5cc5dd09aad16881421e8a1472860ef818ebce768
+    name: aqua-trivy-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.29.3/aqua-trivy-operator-crds-0.29.3.tgz
+    version: 0.29.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-06-25T10:38:44.67163955Z"
     digest: 6657ff728bef1a43064407a5e30e01d145f02180aa3522c755091058bf73e9f0
     name: aqua-trivy-operator-crds
@@ -3636,6 +3645,15 @@ entries:
   percona-pg-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-07-23T12:37:17.940228067Z"
+    digest: 94de5e1f921afe4ba9a552885027fea4ecc7e31abe8c3cb73e8ebd950301e676
+    name: percona-pg-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pg-operator-crds-2.7.0/percona-pg-operator-crds-2.7.0.tgz
+    version: 2.7.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-03-20T09:13:37.186211085Z"
     digest: 683aa4aced55f12a364f799e036d0e8c8ade70a8999b169626cf351089915995
     name: percona-pg-operator-crds
@@ -4208,6 +4226,15 @@ entries:
   smallstep-step-issuer-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-07-23T12:37:18.106873833Z"
+    digest: 029679fd4cc592ad9ec30a7f0e67ddd821f37c667affe8ae9377bb495454a8a7
+    name: smallstep-step-issuer-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/smallstep-step-issuer-crds-1.9.9/smallstep-step-issuer-crds-1.9.9.tgz
+    version: 1.9.9
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-03-20T09:13:37.717045286Z"
     digest: 232a418f0c940ce2da79b557302058b54196bdfaae60c8ac6fec212886324ece
     name: smallstep-step-issuer-crds
@@ -4585,4 +4612,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-07-23T12:35:48.977189462Z"
+generated: "2025-07-23T12:37:18.108325051Z"
