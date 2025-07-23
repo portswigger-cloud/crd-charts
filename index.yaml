@@ -2796,6 +2796,15 @@ entries:
   istio-base-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-07-23T12:32:22.511300724Z"
+    digest: eca072c2512af414c71cfdafe074ebf9fb40b978376792f67ffdb23e9f8ad0f6
+    name: istio-base-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.26.2/istio-base-crds-1.26.2.tgz
+    version: 1.26.2
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-05-30T08:58:06.240531397Z"
     digest: 1baad82f3f3bf022e8a585825b240db4da5c644dc2f9be36cff8077536d7d59b
     name: istio-base-crds
@@ -4513,4 +4522,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-07-23T12:30:41.22369483Z"
+generated: "2025-07-23T12:32:22.512206686Z"
