@@ -42,7 +42,7 @@ jobs:
             helmfile fetch --skip-deps --concurrency=1 -l name=${release} --output-dir ${DOWNLOAD_PATH} --output-dir-template ${DOWNLOAD_PATH} ; helmfile lint --skip-deps --concurrency=1 -l name=${release}
           done
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v6
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.7.0
