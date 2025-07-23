@@ -3049,6 +3049,15 @@ entries:
   karpenter-karpenter-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-07-23T12:30:41.222880189Z"
+    digest: 4e334e239b78771cf448af42dd55b4cbc26c37d7299fa705a062aa31e86a23d1
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-1.6.0/karpenter-karpenter-crds-1.6.0.tgz
+    version: 1.6.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-05-30T08:58:06.377210776Z"
     digest: 498345e2b0872794e037743a3d82f40a70e1bff8f6a427ac5b371f91ad36e735
     name: karpenter-karpenter-crds
@@ -4504,4 +4513,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-06-25T13:01:54.603845857Z"
+generated: "2025-07-23T12:30:41.22369483Z"
