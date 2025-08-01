@@ -103,7 +103,7 @@ releases:
 
   - name: traefik
     chart: traefik/traefik
-    version: 36.3.0
+    version: 37.0.0
     <<: *defaults
 
   - name: istio-base
