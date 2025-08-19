@@ -13,6 +13,15 @@ entries:
   aqua-trivy-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-08-19T14:14:47.651154351Z"
+    digest: 2044229b3f5fb753e1477401ac0e295a0f64f0c1ebb7252ceda5a58ddc62eb60
+    name: aqua-trivy-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.30.0/aqua-trivy-operator-crds-0.30.0.tgz
+    version: 0.30.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-07-23T12:37:17.791099761Z"
     digest: 17c0cee5716c88f2a2355cb5cc5dd09aad16881421e8a1472860ef818ebce768
     name: aqua-trivy-operator-crds
@@ -815,6 +824,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-2.7.17/bitnami-grafana-operator-crds-2.7.17.tgz
     version: 2.7.17
   bitnami-kube-prometheus-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-08-19T14:14:47.823388815Z"
+    digest: d4d38c44834260298a68214bb188b3a023f3e3a7f29ab7dfa89cdd4400c5ea68
+    name: bitnami-kube-prometheus-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-kube-prometheus-crds-11.3.8/bitnami-kube-prometheus-crds-11.3.8.tgz
+    version: 11.3.8
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-07-23T12:35:48.344137106Z"
@@ -1693,6 +1711,15 @@ entries:
   eks-aws-load-balancer-controller-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-08-19T14:14:48.046886719Z"
+    digest: 61560f79d92e2f02b5ee7490c632eb8cf92761adf38af3fdaa6103d5a6457f17
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.13.4/eks-aws-load-balancer-controller-crds-1.13.4.tgz
+    version: 1.13.4
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-06-25T10:38:45.429169647Z"
     digest: 92a915c2d1fde19c77721c3e5c6deab4c146de71310d9df580754e6ffb92c5a0
     name: eks-aws-load-balancer-controller-crds
@@ -1899,6 +1926,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.7/eks-aws-load-balancer-controller-crds-1.4.7.tgz
     version: 1.4.7
   grafana-alloy-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-08-19T14:14:48.197070211Z"
+    digest: d37476af90c1f044440fedbbd79121f940f671d09051cdb55e99231e3d45cd8f
+    name: grafana-alloy-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-alloy-crds-1.2.1/grafana-alloy-crds-1.2.1.tgz
+    version: 1.2.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-07-23T12:35:48.486473412Z"
@@ -4080,6 +4116,15 @@ entries:
   percona-pxc-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-08-19T14:14:48.339423432Z"
+    digest: 8bff48dbec26e7e09f87b404ec872ad653ee5d0dd67a8c057553777925732bfe
+    name: percona-pxc-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pxc-db-crds-1.18.0/percona-pxc-db-crds-1.18.0.tgz
+    version: 1.18.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-05-30T08:58:06.581833051Z"
     digest: 1648a7b1651443e86ccb2be3f2537e5aae725dd18d71cdd722e085b2a5c0e5e3
     name: percona-pxc-db-crds
@@ -4351,6 +4396,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/smallstep-step-issuer-crds-0.6.7/smallstep-step-issuer-crds-0.6.7.tgz
     version: 0.6.7
   traefik-traefik-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-08-19T14:14:48.508692973Z"
+    digest: e5568027851c5a93a2ef671732a87aa3bc81b0f8ba005f76e8f09a39f324968b
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-37.0.0/traefik-traefik-crds-37.0.0.tgz
+    version: 37.0.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-07-23T12:35:48.975510683Z"
@@ -4657,4 +4711,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-08-19T14:12:07.755832489Z"
+generated: "2025-08-19T14:14:48.510205052Z"
