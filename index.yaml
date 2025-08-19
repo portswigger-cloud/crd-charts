@@ -312,6 +312,15 @@ entries:
   bitnami-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-08-19T14:12:06.976780823Z"
+    digest: 6ce08d3372fa212c2e1060360dd3a2d9fbcff5ea6daa6c2ed7572bcd8b2ad62d
+    name: bitnami-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-grafana-operator-crds-4.9.37/bitnami-grafana-operator-crds-4.9.37.tgz
+    version: 4.9.37
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-07-23T12:35:48.155862086Z"
     digest: e58a6e8d9202d2a3ea687e7235b7d585f8e914ac8b075dd09df75a0c9d3d5404
     name: bitnami-grafana-operator-crds
@@ -1530,6 +1539,15 @@ entries:
   cnpg-cloudnative-pg-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-08-19T14:12:07.139161809Z"
+    digest: 6cb5accd243581090391e876f0d9d6c1db78cff2bfc438b3692abc768c1c70f8
+    name: cnpg-cloudnative-pg-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.26.0/cnpg-cloudnative-pg-crds-0.26.0.tgz
+    version: 0.26.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-05-30T08:58:05.990011131Z"
     digest: 3b539cd6e0badd9d817b5a6453f10f0992213fd365e37180ad285d4054a0a0d9
     name: cnpg-cloudnative-pg-crds
@@ -2390,6 +2408,15 @@ entries:
   grafana-tempo-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-08-19T14:12:07.401398272Z"
+    digest: 4320c1e0255e4d75cd9740b317e2062da86accbd3e15dc49bfbdbe9149c777ea
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.46.4/grafana-tempo-distributed-crds-1.46.4.tgz
+    version: 1.46.4
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-07-23T12:35:48.649878382Z"
     digest: 91aa86fd83a9bdf2221b82b16c3aa34c43a12d2b9777c485aa8ef499f027fd6f
     name: grafana-tempo-distributed-crds
@@ -2850,6 +2877,15 @@ entries:
   istio-base-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-08-19T14:12:07.562506286Z"
+    digest: 79841b2d4aaf39d49a7156b36073eb6b420b9e63c20b1b7e7bf428177a3097db
+    name: istio-base-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.27.0/istio-base-crds-1.27.0.tgz
+    version: 1.27.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-07-23T12:32:22.511300724Z"
     digest: eca072c2512af414c71cfdafe074ebf9fb40b978376792f67ffdb23e9f8ad0f6
     name: istio-base-crds
@@ -3110,6 +3146,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.16.2/istio-base-crds-1.16.2.tgz
     version: 1.16.2
   karpenter-karpenter-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-08-19T14:12:07.75440636Z"
+    digest: 3e1d27776681935f514d53686ff02cc521559a1a09b170d6405cc2c6d0352337
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-1.6.2/karpenter-karpenter-crds-1.6.2.tgz
+    version: 1.6.2
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-07-23T12:30:41.222880189Z"
@@ -4612,4 +4657,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-07-23T12:37:18.108325051Z"
+generated: "2025-08-19T14:12:07.755832489Z"
