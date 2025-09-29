@@ -1,6 +1,6 @@
 name: Fetch and Release Charts
 
-on: {}
+on:
   workflow_dispatch: {}
   push:
     branches:
