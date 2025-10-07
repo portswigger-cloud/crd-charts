@@ -4360,6 +4360,15 @@ entries:
   sloth-sloth-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-10-07T09:14:50.697602337Z"
+    digest: 240623010517d2e29324274174f6cce0b1d108f65ab3d2c6a0259c70a456fe41
+    name: sloth-sloth-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/sloth-sloth-crds-0.13.0/sloth-sloth-crds-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-04-11T08:13:58.484307856Z"
     digest: 7db23fbfe5d5f1c3fedead28bdb839f3756fa76e021110ff1627ae405a8b207e
     name: sloth-sloth-crds
@@ -4783,4 +4792,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-09-29T14:31:52.895583619Z"
+generated: "2025-10-07T09:14:50.698355898Z"
