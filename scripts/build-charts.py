@@ -117,9 +117,9 @@ def create_crd_chart(release: Release, staging_dir: str, output_dir: str, nested
 def main():
     helmfile = HelmFile(sys.argv[1])
     for release in HelmFile.releases(helmfile):
-        #staging_dir = pull_and_extract(release)
+        staging_dir = pull_and_extract(release)
         repo, chart = release.chart.split("/")
-        staging_dir = f"./work/{repo}-{chart}/{chart}"
+        #staging_dir = f"./work/{repo}-{chart}/{chart}"
         create_crd_chart(release, staging_dir, "./charts2", release.nested_charts)
 
 
