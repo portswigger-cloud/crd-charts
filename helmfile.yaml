@@ -9,8 +9,6 @@ repositories:
   - name: karpenter
     url: public.ecr.aws/karpenter
     oci: true
-  - name: traefik
-    url:  https://helm.traefik.io/traefik
   - name: istio
     url: https://istio-release.storage.googleapis.com/charts
   - name: smallstep
@@ -99,11 +97,6 @@ releases:
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
     version: 1.13.4
-    <<: *defaults
-
-  - name: traefik
-    chart: traefik/traefik
-    version: 37.1.1
     <<: *defaults
 
   - name: istio-base
