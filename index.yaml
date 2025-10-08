@@ -1955,6 +1955,15 @@ entries:
   grafana-alloy-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-10-08T08:45:26.202947231Z"
+    digest: a8ccd62a3d3d6f975168531fb9890dbe08aad9dd6cd4f47b90cca6f4b4af65f9
+    name: grafana-alloy-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-alloy-crds-1.3.0/grafana-alloy-crds-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-08-19T14:14:48.197070211Z"
     digest: d37476af90c1f044440fedbbd79121f940f671d09051cdb55e99231e3d45cd8f
     name: grafana-alloy-crds
@@ -4792,4 +4801,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-10-07T09:14:50.698355898Z"
+generated: "2025-10-08T08:45:26.203921175Z"
