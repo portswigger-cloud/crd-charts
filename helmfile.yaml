@@ -90,8 +90,8 @@ releases:
     <<: *defaults
 
   - name: grafana-operator
-    chart: bitnami/grafana-operator
-    version: 4.9.37
+    chart: grafana/grafana-operator
+    version: 5.19.4
     <<: *defaults
 
   - name: aws-load-balancer-controller
