@@ -2296,6 +2296,16 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-grafana-agent-operator-crds-0.2.10/grafana-grafana-agent-operator-crds-0.2.10.tgz
     version: 0.2.10
+  grafana-grafana-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-10-09T13:36:45.027033654Z"
+    digest: f1886594e7e65a73e98025e07ef8601d28c536c22b66ba384a0a3b35bf474aa6
+    name: grafana-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-grafana-operator-crds-5.19.4/grafana-grafana-operator-crds-5.19.4.tgz
+    version: 5.19.4
   grafana-mimir-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
@@ -4810,4 +4820,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-10-09T10:57:12.582666816Z"
+generated: "2025-10-09T13:36:45.027839503Z"
