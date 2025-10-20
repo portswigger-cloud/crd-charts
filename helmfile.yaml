@@ -83,7 +83,7 @@ releases:
 
   - name: grafana-operator
     chart: grafana/grafana-operator
-    version: 5.19.4
+    version: v5.20.0
     <<: *defaults
 
   - name: aws-load-balancer-controller
