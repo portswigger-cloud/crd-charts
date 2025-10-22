@@ -1738,6 +1738,15 @@ entries:
   eks-aws-load-balancer-controller-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-10-22T14:00:55.170870436Z"
+    digest: bf10f00fb6406a714d6e1f95c1bcd1e02fa1cfe87f97cd95fb36028f2dc2db8e
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.14.1/eks-aws-load-balancer-controller-crds-1.14.1.tgz
+    version: 1.14.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-10-09T10:57:12.581802431Z"
     digest: 4b899c2ea99c3a1bb499d9f35295f42cc382a30ee63a761fc66f1bae410e98b6
     name: eks-aws-load-balancer-controller-crds
@@ -2308,6 +2317,15 @@ entries:
   grafana-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-10-22T14:00:55.410870146Z"
+    digest: c63c628ebaede570dab5d1ee475c0c0cc4c68e332e14e6466b8bed91bd8097ff
+    name: grafana-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-grafana-operator-crds-v5.20.0/grafana-grafana-operator-crds-v5.20.0.tgz
+    version: v5.20.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-10-09T13:36:45.027033654Z"
     digest: f1886594e7e65a73e98025e07ef8601d28c536c22b66ba384a0a3b35bf474aa6
     name: grafana-grafana-operator-crds
@@ -2515,6 +2533,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-4.1.0-weekly.224/grafana-mimir-distributed-crds-4.1.0-weekly.224.tgz
     version: 4.1.0-weekly.224
   grafana-tempo-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-10-22T14:00:55.899898136Z"
+    digest: 43a71a3fdf21a32aac474295ae1ccb59724ed66804b925a1125853103f660b15
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.48.1/grafana-tempo-distributed-crds-1.48.1.tgz
+    version: 1.48.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-09-29T14:31:52.11474632Z"
@@ -4397,6 +4424,15 @@ entries:
   sloth-sloth-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2025-10-22T14:00:56.168995018Z"
+    digest: 2b7b3697a1409d18c6bda8aaa76f1c16c23b0f59dd651d165f955897f7983d0a
+    name: sloth-sloth-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/sloth-sloth-crds-0.14.0/sloth-sloth-crds-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-10-07T09:14:50.697602337Z"
     digest: 240623010517d2e29324274174f6cce0b1d108f65ab3d2c6a0259c70a456fe41
     name: sloth-sloth-crds
@@ -4829,4 +4865,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-10-17T08:47:12.970245572Z"
+generated: "2025-10-22T14:00:56.170046092Z"
