@@ -90,7 +90,7 @@ releases:
 
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
-    version: 1.14.1
+    version: 1.16.0
     <<: *defaults
 
   - name: istio-base
