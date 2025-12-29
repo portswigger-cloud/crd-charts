@@ -125,7 +125,7 @@ releases:
 
   - name: pg-operator
     chart: percona/pg-operator
-    version: 2.8.1
+    version: 2.8.2
     <<: *defaults
 
   - name: psmdb-db
