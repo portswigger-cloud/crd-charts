@@ -266,6 +266,15 @@ entries:
   arc-gha-runner-scale-set-controller-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-01-14T10:01:15.571229761Z"
+    digest: 7ddf6c1ea9c88b6f973d051faf49b64252507f4f660a29319b6876553ae0b618
+    name: arc-gha-runner-scale-set-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/arc-gha-runner-scale-set-controller-crds-0.13.1/arc-gha-runner-scale-set-controller-crds-0.13.1.tgz
+    version: 0.13.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-12-18T10:19:41.233433424Z"
     digest: 17caee1e278bb35d8bfaa66d522b581b3de294a523f6d45f34bd1b9de3cf4954
     name: arc-gha-runner-scale-set-controller-crds
@@ -1340,6 +1349,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-01-14T10:01:15.834657331Z"
+    digest: 1b8b117daecbb9ca35831623537c423d181e58f16b1bfc31774991b42d7d0572
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.18.0/bitnami-labs-sealed-secrets-crds-2.18.0.tgz
+    version: 2.18.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-12-18T10:19:41.407701141Z"
     digest: c89d4fe0c26cd3ebc311a2a047d72554ab9fbccf415de328b0706604aef051d2
     name: bitnami-labs-sealed-secrets-crds
@@ -1754,6 +1772,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.18.0/cnpg-cloudnative-pg-crds-0.18.0.tgz
     version: 0.18.0
   eks-aws-load-balancer-controller-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-01-14T10:01:16.090754417Z"
+    digest: 6cb57da6a118061926a06829f37dc4ef6c4cba561f55527f53153172c5c7353e
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.17.1/eks-aws-load-balancer-controller-crds-1.17.1.tgz
+    version: 1.17.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-12-18T10:19:41.566923788Z"
@@ -2362,6 +2389,15 @@ entries:
   grafana-grafana-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-01-14T10:01:16.388810708Z"
+    digest: 74310c6fcd11c0ed58308e9ef6f994779be2eedb649495d247202973cdbef52e
+    name: grafana-grafana-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-grafana-operator-crds-5.21.4/grafana-grafana-operator-crds-5.21.4.tgz
+    version: 5.21.4
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-12-18T10:19:42.114074692Z"
     digest: 6a7deacf02c29bd393d04b7e230d338c21410c2dcd7f3b4c3e1284fc0acdb46b
     name: grafana-grafana-operator-crds
@@ -2587,6 +2623,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-mimir-distributed-crds-4.1.0-weekly.224/grafana-mimir-distributed-crds-4.1.0-weekly.224.tgz
     version: 4.1.0-weekly.224
   grafana-tempo-distributed-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-01-14T10:01:16.669582955Z"
+    digest: 03838cbace854da57a637f14ae82c39875b694cbc6bab0cb1508625c6165705c
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.60.0/grafana-tempo-distributed-crds-1.60.0.tgz
+    version: 1.60.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-12-18T10:19:42.269585657Z"
@@ -3083,6 +3128,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.0.1/grafana-tempo-distributed-crds-1.0.1.tgz
     version: 1.0.1
   istio-base-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-01-14T10:01:16.949712867Z"
+    digest: eca2491a702e179b757dac845cc62b4770c1e9e00db03803c7822e790072ade4
+    name: istio-base-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.28.2/istio-base-crds-1.28.2.tgz
+    version: 1.28.2
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-12-18T10:19:42.419613115Z"
@@ -3718,6 +3772,15 @@ entries:
   percona-pg-db-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-01-14T10:01:17.219563126Z"
+    digest: 3264098aa320c1ed2ecce4041b6d851e99bc1ca2529c58c30f095945dcc370fe
+    name: percona-pg-db-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pg-db-crds-2.8.2/percona-pg-db-crds-2.8.2.tgz
+    version: 2.8.2
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-12-18T10:19:42.942696038Z"
     digest: 39c547f010a43fce1b8b5ca9ff13fa78654a543499ddd374ceb979d308fd3757
     name: percona-pg-db-crds
@@ -3960,6 +4023,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pg-db-crds-1.3.1/percona-pg-db-crds-1.3.1.tgz
     version: 1.3.1
   percona-pg-operator-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-01-14T10:01:17.520544199Z"
+    digest: 953cd3cbc3a93dc81f14b9711057da7e64d417aa41abb0047726098be69200a7
+    name: percona-pg-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/percona-pg-operator-crds-2.8.2/percona-pg-operator-crds-2.8.2.tgz
+    version: 2.8.2
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2025-12-18T10:19:43.185589223Z"
@@ -5001,4 +5073,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2025-12-18T10:19:43.526993692Z"
+generated: "2026-01-14T10:01:17.522004131Z"
