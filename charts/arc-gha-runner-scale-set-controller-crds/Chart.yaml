@@ -2,4 +2,4 @@ apiVersion: v2
 appVersion: 0.0.0
 name: arc-gha-runner-scale-set-controller-crds
 type: application
-version: 0.13.0
+version: 0.13.1
