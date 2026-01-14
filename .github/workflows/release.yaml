@@ -27,6 +27,7 @@ jobs:
         with:
           helmfile-version: "v0.150.0"
           helm-version: "v3.11.0"
+          helm-diff-plugin-version: "v3.9.14"
           kubectl-version: "1.24.7"
           kubectl-release-date: "2022-10-31"
 
