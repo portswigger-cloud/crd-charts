@@ -12,8 +12,6 @@ repositories:
     url: https://smallstep.github.io/helm-charts
   - name: grafana
     url: https://grafana.github.io/helm-charts
-  - name: percona
-    url: https://percona.github.io/percona-helm-charts/
   - name: cnpg
     url: https://cloudnative-pg.github.io/charts
   - name: sloth
@@ -116,26 +114,6 @@ releases:
   - name: grafana-agent-operator
     chart: grafana/grafana-agent-operator
     version: 0.5.2
-    <<: *defaults
-
-  - name: pg-db
-    chart: percona/pg-db
-    version: 2.8.2
-    <<: *defaults
-
-  - name: pg-operator
-    chart: percona/pg-operator
-    version: 2.8.2
-    <<: *defaults
-
-  - name: psmdb-db
-    chart: percona/psmdb-db
-    version: 1.20.1
-    <<: *defaults
-
-  - name: pxc-db
-    chart: percona/pxc-db
-    version: 1.18.0
     <<: *defaults
 
   - name: cloudnative-pg
