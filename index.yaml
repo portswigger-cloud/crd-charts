@@ -2652,6 +2652,15 @@ entries:
   grafana-tempo-distributed-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-02-02T09:37:47.977901401Z"
+    digest: 5d50c1011a7e06c878c90c1e495e880e01e64840f3ce67c1fe7dc9c929f49844
+    name: grafana-tempo-distributed-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-tempo-distributed-crds-1.61.3/grafana-tempo-distributed-crds-1.61.3.tgz
+    version: 1.61.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-01-14T10:01:16.669582955Z"
     digest: 03838cbace854da57a637f14ae82c39875b694cbc6bab0cb1508625c6165705c
     name: grafana-tempo-distributed-crds
@@ -3462,6 +3471,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/istio-base-crds-1.16.2/istio-base-crds-1.16.2.tgz
     version: 1.16.2
   karpenter-karpenter-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-02-02T09:37:48.151908632Z"
+    digest: bc5a3de8f49431001dcc026bf100ec54cee6c0caaaa8b4d89d484bc4be2289b2
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-1.8.6/karpenter-karpenter-crds-1.8.6.tgz
+    version: 1.8.6
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2026-01-26T10:05:04.818525293Z"
@@ -5118,4 +5136,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-01-26T10:05:04.820072246Z"
+generated: "2026-02-02T09:37:48.15329254Z"
