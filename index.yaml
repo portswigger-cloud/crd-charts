@@ -1620,6 +1620,15 @@ entries:
   cnpg-cloudnative-pg-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-02-09T15:00:13.728213171Z"
+    digest: ac4be3f47039e21a2e39390b435c5abb0a75accd4e0e3261774b0e7e8d188f61
+    name: cnpg-cloudnative-pg-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.27.1/cnpg-cloudnative-pg-crds-0.27.1.tgz
+    version: 0.27.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-01-26T10:05:03.779025731Z"
     digest: 21b4e905c9aa6e8b65a09a42d96a48e3ced24c9fb92c83cd8738bc3fdc6ea60e
     name: cnpg-cloudnative-pg-crds
@@ -2043,6 +2052,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.7/eks-aws-load-balancer-controller-crds-1.4.7.tgz
     version: 1.4.7
   grafana-alloy-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-02-09T15:00:13.993640001Z"
+    digest: be7c53744574839841bab534f30a5019399fe2de58868c02943f48887655b496
+    name: grafana-alloy-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-alloy-crds-1.6.0/grafana-alloy-crds-1.6.0.tgz
+    version: 1.6.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2026-02-02T09:40:02.393246535Z"
@@ -3491,6 +3509,15 @@ entries:
   karpenter-karpenter-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-02-09T15:00:14.250422163Z"
+    digest: a092c53bc893772e74b0dcb915f19e72bcc2a88f80e5e40207e674bf40c6e19d
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-1.9.0/karpenter-karpenter-crds-1.9.0.tgz
+    version: 1.9.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-02-02T09:37:48.151908632Z"
     digest: bc5a3de8f49431001dcc026bf100ec54cee6c0caaaa8b4d89d484bc4be2289b2
     name: karpenter-karpenter-crds
@@ -3832,6 +3859,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-v0.22.0/karpenter-karpenter-crds-v0.22.0.tgz
     version: v0.22.0
   nats-nack-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-02-09T15:00:14.545582288Z"
+    digest: 8c01bff64f6fcd28344170b80d98661b710358d770f8ad8e53f93a54ed9602f1
+    name: nats-nack-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/nats-nack-crds-0.33.1/nats-nack-crds-0.33.1.tgz
+    version: 0.33.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2026-02-02T09:40:02.569396583Z"
@@ -5163,4 +5199,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-02-02T09:40:02.570522746Z"
+generated: "2026-02-09T15:00:14.546758425Z"
