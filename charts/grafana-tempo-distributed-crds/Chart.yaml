@@ -1,5 +1,0 @@
-apiVersion: v2
-appVersion: 0.0.0
-name: grafana-tempo-distributed-crds
-type: application
-version: 1.61.3
