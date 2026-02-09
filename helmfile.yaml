@@ -101,16 +101,6 @@ releases:
     version: 0.31.0
     <<: *defaults
 
-  - name: gha-runner-scale-set-controller
-    chart: arc/gha-runner-scale-set-controller
-    version: 0.13.1
-    <<: *defaults
-
-  - name: actions-runner-controller-legacy
-    chart: actions-runner-controller-legacy/actions-runner-controller
-    version: 0.23.7
-    <<: *defaults
-
   - name: grafana-alloy
     chart: grafana/alloy
     version: 1.6.0
