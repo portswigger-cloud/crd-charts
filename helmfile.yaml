@@ -81,29 +81,9 @@ releases:
     version: 2.18.0
     <<: *defaults
 
-  - name: grafana-operator
-    chart: grafana/grafana-operator
-    version: 5.21.4
-    <<: *defaults
-
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
     version: 3.0.0
-    <<: *defaults
-
-  - name: istio-base
-    chart: istio/base
-    version: 1.28.3
-    <<: *defaults
-
-  - name: step-issuer
-    chart: smallstep/step-issuer
-    version: 1.9.11
-    <<: *defaults
-
-  - name: mimir-distributed
-    chart: grafana/mimir-distributed
-    version: 6.0.5
     <<: *defaults
 
   - name: tempo-distributed
