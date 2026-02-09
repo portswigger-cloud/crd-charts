@@ -1,5 +1,0 @@
-apiVersion: v2
-appVersion: 0.0.0
-name: actions-runner-controller-legacy-actions-runner-controller-crds
-type: application
-version: 0.23.7
