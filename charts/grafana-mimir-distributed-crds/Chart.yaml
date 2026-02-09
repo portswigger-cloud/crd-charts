@@ -1,5 +1,0 @@
-apiVersion: v2
-appVersion: 0.0.0
-name: grafana-mimir-distributed-crds
-type: application
-version: 6.0.5

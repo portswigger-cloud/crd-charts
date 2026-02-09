@@ -1,5 +1,0 @@
-apiVersion: v2
-appVersion: 0.0.0
-name: smallstep-step-issuer-crds
-type: application
-version: 1.9.11
