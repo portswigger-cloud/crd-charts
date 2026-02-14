@@ -108,7 +108,7 @@ releases:
 
   - name: nack
     chart: nats/nack
-    version: 0.33.1
+    version: 0.33.2
     <<: *defaults
 
 
