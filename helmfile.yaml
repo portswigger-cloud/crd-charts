@@ -78,7 +78,7 @@ releases:
 
   - name: sealed-secrets
     chart: bitnami-labs/sealed-secrets
-    version: 2.18.0
+    version: 2.18.1
     <<: *defaults
 
   - name: aws-load-balancer-controller
