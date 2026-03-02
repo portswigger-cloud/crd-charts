@@ -1358,6 +1358,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-03-02T09:53:42.635736528Z"
+    digest: 4ec59193533f6e1f1810ce922243e6cf976995153ba75014cc61fe5293a6cb17
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.18.3/bitnami-labs-sealed-secrets-crds-2.18.3.tgz
+    version: 2.18.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-02-18T12:04:34.779104294Z"
     digest: b193965d0acb872ae2e8d6345a418a3cf1082b118db1c4206c27152595df908e
     name: bitnami-labs-sealed-secrets-crds
@@ -1808,6 +1817,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.18.0/cnpg-cloudnative-pg-crds-0.18.0.tgz
     version: 0.18.0
   eks-aws-load-balancer-controller-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-03-02T09:53:42.867287242Z"
+    digest: cbff7f012d5a55aa08ded114ea5e24b7848b707d9cfc41f509cf213663ef5daa
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-3.1.0/eks-aws-load-balancer-controller-crds-3.1.0.tgz
+    version: 3.1.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2026-02-02T09:40:02.22337183Z"
@@ -5226,4 +5244,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-02-18T12:04:34.942710346Z"
+generated: "2026-03-02T09:53:42.869455254Z"
