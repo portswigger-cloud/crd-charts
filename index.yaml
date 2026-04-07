@@ -1665,6 +1665,15 @@ entries:
   cnpg-cloudnative-pg-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-04-07T09:48:08.627890053Z"
+    digest: 96d26e5413778110f357cd67d645e05ad73f8cf1e1425144f05ed77853b2e63d
+    name: cnpg-cloudnative-pg-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.28.0/cnpg-cloudnative-pg-crds-0.28.0.tgz
+    version: 0.28.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-02-09T15:00:13.728213171Z"
     digest: ac4be3f47039e21a2e39390b435c5abb0a75accd4e0e3261774b0e7e8d188f61
     name: cnpg-cloudnative-pg-crds
@@ -4830,6 +4839,15 @@ entries:
   sloth-sloth-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-04-07T09:48:08.805841544Z"
+    digest: fc760472c0ffca886f0b752f700ac4d0734b411574aeadd8e86b3735ae12b9cb
+    name: sloth-sloth-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/sloth-sloth-crds-0.16.0/sloth-sloth-crds-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2025-12-18T10:19:43.357460324Z"
     digest: de93c1814893f9a4d93e3b5a878b86621db89233a317ac0d66fc68a97ff25c37
     name: sloth-sloth-crds
@@ -5289,4 +5307,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-04-07T09:47:30.900954631Z"
+generated: "2026-04-07T09:48:08.806753084Z"
