@@ -103,7 +103,7 @@ releases:
 
   - name: grafana-alloy
     chart: grafana/alloy
-    version: 1.7.0
+    version: 1.8.0
     <<: *nestedChart
 
   - name: nack
