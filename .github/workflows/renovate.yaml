@@ -15,11 +15,26 @@ jobs:
       
       - name: Get token
         id: get_token
-        uses: portswigger-cloud/github-actions/actions/idcat-token@main
-        with:
-          github-app: portswigger-renovate
-          target-repository: portswigger-cloud/crd-charts
-      
+        run: |
+          set -euo pipefail
+
+          if [ -z "${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" ] || [ -z "${ACTIONS_ID_TOKEN_REQUEST_URL:-}" ]; then
+          echo "::error::OIDC environment not present. Add 'permissions: { id-token: write }' to the calling job."
+            exit 1
+          fi
+  
+          jwt=$(curl --fail-with-body -sS \
+            -H "Authorization: bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" \
+            "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=idcat.platform-prod.portswigger.io" \
+            | jq -r .value)
+  
+          token=$(curl --fail-with-body -sS -X POST \
+            -H "Authorization: Bearer ${jwt}" \
+            https://idcat.platform-prod.portswigger.io/installation-token/portswigger-renovate/portswigger-cloud/crd-charts)
+  
+          echo "::add-mask::${token}"
+          echo "app_token=${token}" >> "$GITHUB_OUTPUT"
+
       - name: Checkout
         uses: actions/checkout@v6
       
