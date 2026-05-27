@@ -5,11 +5,11 @@ on:
     - cron: '30 10 1-7,14-21 * 1' # 10:30 every Monday that falls on 1st-7th or 14th-21st of the month
   workflow_dispatch: {}
 
-permissions:
-  id-token: write
 
 jobs:
   renovate:
+    permissions:
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       
