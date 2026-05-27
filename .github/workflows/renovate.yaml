@@ -5,6 +5,9 @@ on:
     - cron: '30 10 1-7,14-21 * 1' # 10:30 every Monday that falls on 1st-7th or 14th-21st of the month
   workflow_dispatch: {}
 
+permissions:
+  id-token: write
+
 jobs:
   renovate:
     runs-on: ubuntu-latest
@@ -12,10 +15,10 @@ jobs:
       
       - name: Get token
         id: get_token
-        uses: machine-learning-apps/actions-app-token@master
+        uses: portswigger-cloud/github-actions/actions/idcat-token@main
         with:
-          APP_PEM: ${{ secrets.RENOVATE_APP_PEM }}
-          APP_ID: ${{ secrets.RENOVATE_APP_ID }}
+          github-app: portswigger-renovate
+          target-repository: portswigger-cloud/crd-charts
       
       - name: Checkout
         uses: actions/checkout@v6
