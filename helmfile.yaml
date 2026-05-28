@@ -113,7 +113,7 @@ releases:
     version: 0.34.0
     <<: *defaults
 
-  - name: treafik
+  - name: traefik
     chart: traefik/traefik
     version: 40.2.0
 
