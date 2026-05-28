@@ -25,6 +25,8 @@ repositories:
     url: https://actions-runner-controller.github.io/actions-runner-controller
   - name: nats
     url: https://nats-io.github.io/k8s/helm/charts/
+  - name: traefik
+    url: https://helm.traefik.io/traefik
 
 templates:
   defaults: &defaults
@@ -111,5 +113,8 @@ releases:
     version: 0.34.0
     <<: *defaults
 
+  - name: treafik
+    chart: traefik/traefik
+    version: 40.2.0
 
     
