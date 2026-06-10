@@ -13,6 +13,15 @@ entries:
   aqua-trivy-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-06-10T08:59:33.901096434Z"
+    digest: 155e61489decd4b154fc3fb1935df79f05272206e8d5a1220fc1947ee638e172
+    name: aqua-trivy-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.33.1/aqua-trivy-operator-crds-0.33.1.tgz
+    version: 0.33.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-03-19T14:55:20.284054544Z"
     digest: 9f27cfecd6e9f09baeca2822eeaab7ead7c34eaebaf583ccca6e4db33903039a
     name: aqua-trivy-operator-crds
@@ -5406,4 +5415,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-06-10T08:58:53.060327768Z"
+generated: "2026-06-10T08:59:33.902023867Z"
