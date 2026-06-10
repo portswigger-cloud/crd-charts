@@ -100,12 +100,12 @@ releases:
 
   - name: trivy-operator
     chart: aqua/trivy-operator
-    version: 0.32.1
+    version: 0.33.1
     <<: *defaults
 
   - name: grafana-alloy
     chart: grafana/alloy
-    version: 1.8.0
+    version: 1.8.2
     <<: *nestedChart
 
   - name: nack
