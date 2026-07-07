@@ -115,7 +115,7 @@ releases:
 
   - name: traefik
     chart: traefik/traefik
-    version: 41.0.0
+    version: 41.0.2
     <<: *defaults
 
     
