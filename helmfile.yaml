@@ -85,7 +85,7 @@ releases:
 
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
-    version: 3.4.0
+    version: 3.4.1
     <<: *defaults
 
   - name: cloudnative-pg
