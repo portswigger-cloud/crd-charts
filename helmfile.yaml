@@ -100,7 +100,7 @@ releases:
 
   - name: trivy-operator
     chart: aqua/trivy-operator
-    version: 0.33.2
+    version: 0.34.0
     <<: *defaults
 
   - name: grafana-alloy
