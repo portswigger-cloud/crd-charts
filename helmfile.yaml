@@ -1,6 +1,6 @@
 repositories:
   - name: bitnami-labs
-    url: https://bitnami-labs.github.io/sealed-secrets
+    url: https://bitnami.github.io/sealed-secrets
   - name: eks
     url: https://aws.github.io/eks-charts
   - name: karpenter
