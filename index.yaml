@@ -13,6 +13,15 @@ entries:
   aqua-trivy-operator-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-08-14T09:49:58.202951635Z"
+    digest: a08c67040012d4cc2d2d5426cc712a4dec18d37a984bd81301eb06a769cbcd75
+    name: aqua-trivy-operator-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/aqua-trivy-operator-crds-0.35.0/aqua-trivy-operator-crds-0.35.0.tgz
+    version: 0.35.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-07-13T14:57:45.305844887Z"
     digest: 59e091d465ff4bfb0a41e08b64663084e26fcd387cfcc09db8926902d2e700fe
     name: aqua-trivy-operator-crds
@@ -1385,6 +1394,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-08-14T09:49:58.390630669Z"
+    digest: d27c1f48cf8f3cd591f5b156b5ec201774d9793ab4092f4e1469a3d7e51d713b
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.19.1/bitnami-labs-sealed-secrets-crds-2.19.1.tgz
+    version: 2.19.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-05-27T13:52:38.385176366Z"
     digest: 499af6f7785913784d25db6364e37268a69e5a1e7f49439287a125cd0194b520
     name: bitnami-labs-sealed-secrets-crds
@@ -1909,6 +1927,15 @@ entries:
   eks-aws-load-balancer-controller-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-08-14T09:49:58.567871101Z"
+    digest: 25c773ce373f7742d43809639138d43c85341e2d2c5131ace8fa957c054074f4
+    name: eks-aws-load-balancer-controller-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-3.5.0/eks-aws-load-balancer-controller-crds-3.5.0.tgz
+    version: 3.5.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-07-13T14:57:45.658423416Z"
     digest: 697df9c47629a7b67e25a0228eed703b9e52615074b560c6c253857ffdbb6b18
     name: eks-aws-load-balancer-controller-crds
@@ -2214,6 +2241,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.7/eks-aws-load-balancer-controller-crds-1.4.7.tgz
     version: 1.4.7
   grafana-alloy-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-08-14T09:49:58.767843611Z"
+    digest: f29f0b1195ddbf7b5481711b848a547027cd2ce9c44f510fc0b0fe293a100e30
+    name: grafana-alloy-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-alloy-crds-1.11.1/grafana-alloy-crds-1.11.1.tgz
+    version: 1.11.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2026-07-13T14:57:45.812949511Z"
@@ -5165,6 +5201,15 @@ entries:
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-08-14T09:49:58.930874265Z"
+    digest: 6a0ea9259d5cff3b6851c4915fbe22067858341bda70224962eff6b843fbc747
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-41.2.0/traefik-traefik-crds-41.2.0.tgz
+    version: 41.2.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-07-13T14:57:46.203930191Z"
     digest: 3253f5c138a7456d4b1b90af66a16c930c0f108b0e1d7d5b92e6186d7cd32590
     name: traefik-traefik-crds
@@ -5514,4 +5559,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-07-13T14:57:46.205517407Z"
+generated: "2026-08-14T09:49:58.933034199Z"
