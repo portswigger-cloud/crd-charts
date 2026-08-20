@@ -110,7 +110,7 @@ releases:
 
   - name: nack
     chart: nats/nack
-    version: 0.34.0
+    version: 0.35.0
     <<: *defaults
 
   - name: traefik
