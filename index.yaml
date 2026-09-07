@@ -1394,6 +1394,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-09-07T12:12:51.458596268Z"
+    digest: b223d78380537b199dbf2e63fb3b4ae909ae66b37d4594a4c69c98a8e606a3a0
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.19.3/bitnami-labs-sealed-secrets-crds-2.19.3.tgz
+    version: 2.19.3
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-08-14T09:49:58.390630669Z"
     digest: d27c1f48cf8f3cd591f5b156b5ec201774d9793ab4092f4e1469a3d7e51d713b
     name: bitnami-labs-sealed-secrets-crds
@@ -2241,6 +2250,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/eks-aws-load-balancer-controller-crds-1.4.7/eks-aws-load-balancer-controller-crds-1.4.7.tgz
     version: 1.4.7
   grafana-alloy-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-09-07T12:12:51.588122013Z"
+    digest: 77762034aec3e2b7d304c0da0eb786a906015642077ac8f5402639414cb918c5
+    name: grafana-alloy-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/grafana-alloy-crds-1.12.1/grafana-alloy-crds-1.12.1.tgz
+    version: 1.12.1
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2026-08-14T09:49:58.767843611Z"
@@ -3761,6 +3779,15 @@ entries:
   karpenter-karpenter-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-09-07T12:12:51.751916928Z"
+    digest: 276a4bc088802a5a9a7ce733025c2df7d07beefd6908f263680483ae01a62c7f
+    name: karpenter-karpenter-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-1.14.1/karpenter-karpenter-crds-1.14.1.tgz
+    version: 1.14.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-07-13T14:57:46.003264527Z"
     digest: cd2191df4534660649abf3336c22654ad9a38690fa03c4d993f3688b97c48c36
     name: karpenter-karpenter-crds
@@ -4156,6 +4183,15 @@ entries:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/karpenter-karpenter-crds-v0.22.0/karpenter-karpenter-crds-v0.22.0.tgz
     version: v0.22.0
   nats-nack-crds:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2026-09-07T12:12:51.901662421Z"
+    digest: 8269f4e529b07695e76d57ef3740acd87355422fc49818683bfbf5a42dece514
+    name: nats-nack-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/nats-nack-crds-0.35.0/nats-nack-crds-0.35.0.tgz
+    version: 0.35.0
   - apiVersion: v2
     appVersion: 0.0.0
     created: "2026-05-27T13:52:39.413469407Z"
@@ -5201,6 +5237,15 @@ entries:
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-09-07T12:12:52.059923766Z"
+    digest: 32ba6e03fedd6280ef33e1428e30d87010d0659d24b7f57514a5aa10a6606849
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-41.5.0/traefik-traefik-crds-41.5.0.tgz
+    version: 41.5.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-08-14T09:49:58.930874265Z"
     digest: 6a0ea9259d5cff3b6851c4915fbe22067858341bda70224962eff6b843fbc747
     name: traefik-traefik-crds
@@ -5559,4 +5604,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-08-14T09:49:58.933034199Z"
+generated: "2026-09-07T12:12:52.06213988Z"
