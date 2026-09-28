@@ -16,8 +16,6 @@ repositories:
     url: https://cloudnative-pg.github.io/charts
   - name: sloth
     url: https://slok.github.io/sloth
-  - name: aqua
-    url: https://aquasecurity.github.io/helm-charts/
   - name: arc
     url: ghcr.io/actions/actions-runner-controller-charts
     oci: true
@@ -96,11 +94,6 @@ releases:
   - name: sloth
     chart: sloth/sloth
     version: 0.16.0
-    <<: *defaults
-
-  - name: trivy-operator
-    chart: aqua/trivy-operator
-    version: 0.35.0
     <<: *defaults
 
   - name: grafana-alloy
