@@ -11,6 +11,9 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed by git-auto-commit and chart-releaser
+      packages: write   # needed for OCI push to GHCR
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -50,3 +53,32 @@ jobs:
         env:
           CR_SKIP_EXISTING: "true"
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+      # Migration: charts are published to GHCR (OCI) alongside GitHub Pages
+      # while consumers move over. Remove the chart-releaser step once nothing
+      # references the Pages URL.
+      - name: Login to GHCR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.actor }}
+        run: printf '%s' "$GH_TOKEN" | helm registry login ghcr.io -u "$GH_USER" --password-stdin
+
+      - name: Package and push charts to GHCR (OCI)
+        run: |
+          set -euo pipefail
+          registry="oci://ghcr.io/${GITHUB_REPOSITORY_OWNER}/crd-charts"
+          mkdir -p .cr-release-packages-oci
+          for chart_dir in charts/*/; do
+            name=$(basename "$chart_dir")
+            version=$(awk '/^version:/{print $2}' "${chart_dir}Chart.yaml" | tr -d '"')
+            # Mirror CR_SKIP_EXISTING: don't republish a version that is already there
+            if helm show chart "${registry}/${name}" --version "$version" >/dev/null 2>&1; then
+              echo "Skipping ${name}:${version}, already published"
+              continue
+            fi
+            helm package "$chart_dir" -d .cr-release-packages-oci
+          done
+          for pkg in .cr-release-packages-oci/*.tgz; do
+            [ -e "$pkg" ] || continue
+            helm push "$pkg" "$registry"
+          done

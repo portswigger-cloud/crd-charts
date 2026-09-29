@@ -33,6 +33,18 @@ helm repo add crd-charts https://portswigger-cloud.github.io/crd-charts/
 helm install cert-manager-crds crd-charts/jetstack-cert-manager-crds
 ```
 
+### Installing from GHCR (OCI)
+Charts are also published as OCI artifacts to GHCR, at `oci://ghcr.io/portswigger-cloud/crd-charts/$repo-$chartName-crds`.
+They are private to the organisation, so a `helm registry login ghcr.io` is needed first. In a `helmfile.yaml`:
+```yaml
+releases:
+  - name: cert-manager-crds
+    chart: oci://ghcr.io/portswigger-cloud/crd-charts/jetstack-cert-manager-crds
+    version: v1.2.3
+```
+
+GitHub Pages publishing continues during the migration and will be removed once nothing references it.
+
 ### Versions
 The CRDs charts _should_ be versioned matching the Helm chart. Often, there will be no changes between versions.
 
