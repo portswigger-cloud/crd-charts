@@ -1,0 +1,47 @@
+# One-off: copy chart versions that only exist on GitHub Pages into GHCR (OCI).
+# Delete this workflow once the migration to GHCR is finished.
+name: Backfill OCI charts
+
+on:
+  workflow_dispatch:
+    inputs:
+      charts:
+        description: "Space-separated chart:version pairs, e.g. traefik-traefik-crds:41.2.0 nats-nack-crds:0.33.2"
+        required: true
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Setup Helm
+        uses: azure/setup-helm@v4
+        with:
+          version: "v3.19.4"
+
+      - name: Login to GHCR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.actor }}
+        run: printf '%s' "$GH_TOKEN" | helm registry login ghcr.io -u "$GH_USER" --password-stdin
+
+      - name: Copy from Pages to GHCR
+        env:
+          CHARTS: ${{ inputs.charts }}
+        run: |
+          set -euo pipefail
+          pages="https://${GITHUB_REPOSITORY_OWNER}.github.io/crd-charts"
+          registry="oci://ghcr.io/${GITHUB_REPOSITORY_OWNER}/crd-charts"
+          mkdir -p pkgs
+          for pair in $CHARTS; do
+            name="${pair%%:*}"
+            version="${pair##*:}"
+            if helm show chart "${registry}/${name}" --version "$version" >/dev/null 2>&1; then
+              echo "Skipping ${name}:${version}, already in GHCR"
+              continue
+            fi
+            helm pull "$name" --repo "$pages" --version "$version" -d pkgs
+            helm push "pkgs/${name}-${version}.tgz" "$registry"
+          done
