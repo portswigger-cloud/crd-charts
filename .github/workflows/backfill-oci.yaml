@@ -19,7 +19,7 @@ jobs:
       - name: Setup Helm
         uses: azure/setup-helm@v4
         with:
-          version: "v3.19.4"
+          version: "v4.3.0"
 
       - name: Login to GHCR
         env:
