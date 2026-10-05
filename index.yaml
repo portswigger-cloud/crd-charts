@@ -1403,6 +1403,15 @@ entries:
   bitnami-labs-sealed-secrets-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-10-05T10:34:58.338560781Z"
+    digest: f4b1e061407e1b3cd22e7e71c60e0fe6eddbeb7dd8fe71d5f89b889a2a30a53c
+    name: bitnami-labs-sealed-secrets-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/bitnami-labs-sealed-secrets-crds-2.20.0/bitnami-labs-sealed-secrets-crds-2.20.0.tgz
+    version: 2.20.0
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-09-07T12:12:51.458596268Z"
     digest: b223d78380537b199dbf2e63fb3b4ae909ae66b37d4594a4c69c98a8e606a3a0
     name: bitnami-labs-sealed-secrets-crds
@@ -5613,4 +5622,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-09-23T15:41:15.064661784Z"
+generated: "2026-10-05T10:34:58.339730701Z"
