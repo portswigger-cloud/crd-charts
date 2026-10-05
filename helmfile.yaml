@@ -3,26 +3,11 @@ repositories:
     url: https://bitnami.github.io/sealed-secrets
   - name: eks
     url: https://aws.github.io/eks-charts
-  - name: karpenter
-    url: public.ecr.aws/karpenter
-    oci: true
-  - name: istio
-    url: https://istio-release.storage.googleapis.com/charts
-  - name: smallstep
-    url: https://smallstep.github.io/helm-charts
   - name: grafana
     url: https://grafana.github.io/helm-charts
-  - name: cnpg
-    url: https://cloudnative-pg.github.io/charts
-  - name: sloth
-    url: https://slok.github.io/sloth
-  - name: aqua
-    url: https://aquasecurity.github.io/helm-charts/
   - name: arc
     url: ghcr.io/actions/actions-runner-controller-charts
     oci: true
-  - name: actions-runner-controller-legacy
-    url: https://actions-runner-controller.github.io/actions-runner-controller
   - name: nats
     url: https://nats-io.github.io/k8s/helm/charts/
   - name: traefik
@@ -73,11 +58,6 @@ templates:
           - "true"
 
 releases:
-  - name: karpenter
-    chart: karpenter/karpenter
-    version: 1.14.1
-    <<: *defaults
-
   - name: sealed-secrets
     chart: bitnami-labs/sealed-secrets
     version: 2.20.0
@@ -86,21 +66,6 @@ releases:
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
     version: 3.5.0
-    <<: *defaults
-
-  - name: cloudnative-pg
-    chart: cnpg/cloudnative-pg
-    version: 0.29.1
-    <<: *defaults
-
-  - name: sloth
-    chart: sloth/sloth
-    version: 0.16.0
-    <<: *defaults
-
-  - name: trivy-operator
-    chart: aqua/trivy-operator
-    version: 0.35.0
     <<: *defaults
 
   - name: grafana-alloy
