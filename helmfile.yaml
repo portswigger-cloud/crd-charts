@@ -3,8 +3,6 @@ repositories:
     url: https://bitnami.github.io/sealed-secrets
   - name: eks
     url: https://aws.github.io/eks-charts
-  - name: grafana
-    url: https://grafana.github.io/helm-charts
   - name: arc
     url: ghcr.io/actions/actions-runner-controller-charts
     oci: true
@@ -34,28 +32,6 @@ templates:
           - '{{`{{ .Release.Chart }}`}}'
           - --download-path
           - '{{ requiredEnv "DOWNLOAD_PATH" }}'
-  nestedChart: &nestedChart
-    hooks:
-      - events:
-          - prepare
-        showlogs: true
-        command: ./scripts/create-crd-chart.py
-        args:
-          - --chart
-          - '{{`{{ .Release.Chart }}`}}'
-          - --version
-          - '{{`{{ .Release.Version }}`}}'
-      - events:
-          - cleanup
-        showlogs: true
-        command: ./scripts/copy-crds.py
-        args:
-          - --chart
-          - '{{`{{ .Release.Chart }}`}}'
-          - --download-path
-          - '{{ requiredEnv "DOWNLOAD_PATH" }}'
-          - --nested-chart
-          - "true"
 
 releases:
   - name: sealed-secrets
@@ -67,11 +43,6 @@ releases:
     chart: eks/aws-load-balancer-controller
     version: 3.5.0
     <<: *defaults
-
-  - name: grafana-alloy
-    chart: grafana/alloy
-    version: 1.13.0
-    <<: *nestedChart
 
   - name: nack
     chart: nats/nack
