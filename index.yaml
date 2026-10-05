@@ -1746,6 +1746,15 @@ entries:
   cnpg-cloudnative-pg-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-10-05T12:14:42.666068568Z"
+    digest: 622f789c1bfdfc96ee3ab9673f970ad56214ff5137e3e60f2ee068b28b1e0640
+    name: cnpg-cloudnative-pg-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/cnpg-cloudnative-pg-crds-0.29.1/cnpg-cloudnative-pg-crds-0.29.1.tgz
+    version: 0.29.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-07-13T14:57:45.491293259Z"
     digest: 570c054d7195c852e00626d82058d5c2d61aaddc4d6209bca144a9147d30d58e
     name: cnpg-cloudnative-pg-crds
@@ -5640,4 +5649,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-10-05T12:12:53.454757709Z"
+generated: "2026-10-05T12:14:42.666878222Z"
