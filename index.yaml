@@ -5255,6 +5255,15 @@ entries:
   traefik-traefik-crds:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2026-10-05T12:10:11.368679384Z"
+    digest: 3aff6757e17779f4833d273e7b33c095f8bc12e00e8553594b922af58ce4fc9d
+    name: traefik-traefik-crds
+    type: application
+    urls:
+    - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-41.6.1/traefik-traefik-crds-41.6.1.tgz
+    version: 41.6.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2026-09-07T12:12:52.059923766Z"
     digest: 32ba6e03fedd6280ef33e1428e30d87010d0659d24b7f57514a5aa10a6606849
     name: traefik-traefik-crds
@@ -5622,4 +5631,4 @@ entries:
     urls:
     - https://github.com/portswigger-cloud/crd-charts/releases/download/traefik-traefik-crds-20.8.0/traefik-traefik-crds-20.8.0.tgz
     version: 20.8.0
-generated: "2026-10-05T10:34:58.339730701Z"
+generated: "2026-10-05T12:10:11.369385527Z"
