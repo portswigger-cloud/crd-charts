@@ -1,5 +1,0 @@
-apiVersion: v2
-appVersion: 0.0.0
-name: sloth-sloth-crds
-type: application
-version: 0.16.0
