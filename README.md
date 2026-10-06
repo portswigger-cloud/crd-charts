@@ -1,7 +1,27 @@
-![release workflow](https://github.com/portswigger-cloud/crd-charts/actions/workflows/release.yaml/badge.svg)
-
-
 # crd-charts
+
+> [!WARNING]
+> **Retired (October 2026). Nothing consumes these charts any more, and no new versions are built.**
+>
+> The CRDs these charts carried are now owned by Argo CD through
+> [portswigger-cloud/system](https://github.com/portswigger-cloud/system):
+>
+> | CRDs | Now |
+> |---|---|
+> | Traefik | `system/base/traefik-crds` (copied into each section running Traefik) |
+> | AWS Load Balancer Controller | `system/base/aws-load-balancer-controller-crds`; observability's controller renders its own |
+> | SealedSecret | `system/base/sealed-secrets-crds` |
+> | NACK (jetstream.nats.io) | `system/platform/nack-crds` |
+> | ARC (actions.github.com) | rendered by the `arc` release itself (`crd-sync-options`) |
+> | grafana-alloy PodLogs | rendered by system's grafana-alloy (`crds.create: true`) |
+>
+> bsee's `prod-apse2` is not on Argo yet (PLAT-940); there the bsee helmfile
+> applies the Traefik and ALB controller CRDs through presync hooks, pinned to the
+> versions vendored in system.
+>
+> Every version ever published stays available on GitHub Pages and on GHCR
+> (`oci://ghcr.io/portswigger-cloud/crd-charts/<chart>`), so old pins still resolve.
+
 Helm charts for containing the CRDs for common helm applications.
 
 This is an attempt to ease the Helm / CRD management issue by creating charts that contain the CRDs
