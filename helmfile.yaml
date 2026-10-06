@@ -3,8 +3,6 @@ repositories:
     url: https://aws.github.io/eks-charts
   - name: nats
     url: https://nats-io.github.io/k8s/helm/charts/
-  - name: traefik
-    url: https://helm.traefik.io/traefik
 
 templates:
   defaults: &defaults
@@ -37,11 +35,6 @@ releases:
   - name: nack
     chart: nats/nack
     version: 0.35.0
-    <<: *defaults
-
-  - name: traefik
-    chart: traefik/traefik
-    version: 41.6.1
     <<: *defaults
 
     
