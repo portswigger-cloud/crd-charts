@@ -1,6 +1,4 @@
 repositories:
-  - name: nats
-    url: https://nats-io.github.io/k8s/helm/charts/
 
 templates:
   defaults: &defaults
@@ -24,10 +22,4 @@ templates:
           - --download-path
           - '{{ requiredEnv "DOWNLOAD_PATH" }}'
 
-releases:
-  - name: nack
-    chart: nats/nack
-    version: 0.35.0
-    <<: *defaults
-
-    
+releases: []
