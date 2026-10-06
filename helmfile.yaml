@@ -1,6 +1,4 @@
 repositories:
-  - name: bitnami-labs
-    url: https://bitnami.github.io/sealed-secrets
   - name: eks
     url: https://aws.github.io/eks-charts
   - name: arc
@@ -34,11 +32,6 @@ templates:
           - '{{ requiredEnv "DOWNLOAD_PATH" }}'
 
 releases:
-  - name: sealed-secrets
-    chart: bitnami-labs/sealed-secrets
-    version: 2.20.0
-    <<: *defaults
-
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
     version: 3.5.0
