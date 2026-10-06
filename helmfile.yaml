@@ -31,7 +31,7 @@ templates:
 releases:
   - name: aws-load-balancer-controller
     chart: eks/aws-load-balancer-controller
-    version: 3.5.0
+    version: 3.6.0
     <<: *defaults
 
   - name: nack
